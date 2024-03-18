@@ -1,5 +1,5 @@
 
-# showOnSaleTool: Web Scraper with MERN Stack and Google Sheets Integration
+# showOnSaleTool: Web Scraper with Google Sheets Integration
 
 ## Overview
 showOnSaleTool is a web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It is used to scrape data from a website and store it in Google Sheets in Excel format..

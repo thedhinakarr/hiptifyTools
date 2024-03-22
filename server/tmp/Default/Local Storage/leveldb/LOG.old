@@ -1,0 +1,4 @@
+2024/03/22-19:57:53.299 3d03 Reusing MANIFEST /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Local Storage/leveldb/MANIFEST-000001
+2024/03/22-19:57:53.303 3d03 Recovering log #11
+2024/03/22-19:57:53.303 3d03 (ignoring error) /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Local Storage/leveldb/000011.log: dropping 2885 bytes; Corruption: missing start of fragmented record(2)
+2024/03/22-19:57:53.304 3d03 Reusing old log /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Local Storage/leveldb/000011.log 

@@ -1,3 +1,3 @@
-2024/03/23-17:24:53.551 8c03 Reusing MANIFEST /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Sync Data/LevelDB/MANIFEST-000001
-2024/03/23-17:24:53.553 8c03 Recovering log #3
-2024/03/23-17:24:53.554 8c03 Reusing old log /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Sync Data/LevelDB/000003.log 
+2024/03/24-02:44:59.553 8903 Reusing MANIFEST /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Sync Data/LevelDB/MANIFEST-000001
+2024/03/24-02:44:59.555 8903 Recovering log #3
+2024/03/24-02:44:59.556 8903 Reusing old log /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Sync Data/LevelDB/000003.log 

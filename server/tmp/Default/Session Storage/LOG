@@ -1,6 +1,3 @@
-2024/03/23-17:24:55.852 3e03 Reusing MANIFEST /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Session Storage/MANIFEST-000001
-2024/03/23-17:24:55.854 3e03 Recovering log #59
-2024/03/23-17:24:55.855 3e03 Reusing old log /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Session Storage/000059.log 
-2024/03/23-17:25:01.921 3003 Level-0 table #64: started
-2024/03/23-17:25:01.948 3003 Level-0 table #64: 20218 bytes OK
-2024/03/23-17:25:01.994 3003 Delete type=0 #59
+2024/03/24-02:45:01.836 2c03 Reusing MANIFEST /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Session Storage/MANIFEST-000001
+2024/03/24-02:45:01.838 2c03 Recovering log #63
+2024/03/24-02:45:01.839 2c03 Reusing old log /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Session Storage/000063.log 

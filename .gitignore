@@ -145,5 +145,4 @@ dist
 
 #server config(API keys)
 ./server/config/
-./server/credentials.json
-./server/credentials.json
+./server/showsonsale-ed3fce40689f.json

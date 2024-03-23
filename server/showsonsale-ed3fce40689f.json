@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "showsonsale",
+  "private_key_id": "ed3fce40689f9268d7e5dbf01f8a05594b8eef2b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQCU1IzFFNsYkVAN\nSkj4uROSPrRBgrKdavX9W8sKk8YT1n/Pp+FASz01JvgfG7jMRC0FktOhvWJsQsHk\nqm+EpydH4DGfCN/GIXkYxAa7TmgDF15E7B2i912hzxt/V5Yn2T8afLIUCUPHMU8o\nO/u0iVinjB40lpc23/MMriIMldpgPZHv/V07VBpAB5Qa7CqQeJJNmX0NrWkCXN2X\nPdgp6BRssXLN/x2KBVG1HP5XgdmYyVQjmRhCkqCl7+wqBqgCj5insNsb+RlEZlvK\neqSOCDytNdrZW8+2M3k/qFQ06Ou5nU9GUmEQPZdOLMEWvl0WIYeuTXil9Z5BhuCc\nuhgOFgOHAgMBAAECgf8SUBUCKw7Kdxbii8Fu2VcPJ6gGZ46S0BZ0llbldklpJ3uS\nkZWl05w0bhcZvM+AUuM3TFm+DQ+PQqeY+1+9ctPihDOW3gCq4HOGGJi7c2pY9wci\nc+sxoj5jKpi3ko9nV9Pr7mv7CyjL2cVjrf3KuRuvgg41alIw7l15sfN+mPHF5Z16\nq+OqYGdDtIz9m4zrzq/wZIyxeH/4B/7+7oMyMyxH3m1l6MKZ5hZjQgPmYSHa2tVv\nbl86Q80uc/44iekaENXGXzr2voymUCulHy8evU7Dt/tqAF2eAHWI8QUhiwapf5ux\nO5nNNHmPD+X3Sw/CKYpAQZ5+DCZ0evQ9pNfDq1UCgYEAy9ZK/2wyA+L1X811dmhc\nE1PgzVRaOBsemvKg4SpIwmXCRV6s1tXZh+hWmGNmc/XM6/La5Y3H/UOfcVabLeog\nVSZIFX86/acqVmRFSRPB3x9cOXLX5f7ACVZ7nhq2xcMpTe9NbPBGIrpEJ0/cSAuW\nvgNTDDRMwePmFtPudFgjtq0CgYEAuuqrTuFKKYji8bHDk2pIUEZHAEtyISPxVr2U\nxTK4w/ZXIyNxf4IeEJ1FJ7gCwTFQNRIlWg0Ti3B/0s8ZI56462dYeb1023W3YzMS\nLNA6wxvbsJNZASItvNGZ+pemtpS685lT12af4CXk4rECXcOkzm+uRdn06IlEESFl\nX2CDzYMCgYBGGVoNYR4KLCEKY1QD9nvDwdLLijjElr79tncROENxZyFaTebOsxhu\nHr65BWYUdvGUKx6QVyPxuzG3/nq7XYrk/ZdInUqiNLzgnPce3IaNvvEuaIpK9EMC\ncxVsF+/HLwijXqqXzkGwa7JIerRcqm+axPXoeovzGfbk3tlgdXdCuQKBgEiUZwCy\nKoIGTVlclXzggEPrhhZvNVn5AvWTl/kawPQW668RTDke5V2+M+RAZ5Fs/KAe87IL\n8dLrVDcfg7t5HoUKFCjxkDbHdvZmFmCgWrD4WE4waRcvlmMDYK8Vw/6RsiZ1G0FA\n8EOxczczVJ/kIFKouxsUjyzcYDnmpd5rM8LRAoGBAILYvTJ38RqGN9xn7ixGYYfW\nAIixtrRs2pB6y1h6diHF9g6hy9dro1IWILMTZooDXOpiqcwykXQwqaxq2Kdb9gBX\nQuB0ewBCnMuk25qWvPoyfVwHebNu108ToOBiloR5r2GNaPbzZEk9YH8HTFxepQ1r\n94Bfg6NHzvVaYz9H7ZeO\n-----END PRIVATE KEY-----\n",
+  "client_email": "showsonsalebackend@showsonsale.iam.gserviceaccount.com",
+  "client_id": "103580330866342274141",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/showsonsalebackend%40showsonsale.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

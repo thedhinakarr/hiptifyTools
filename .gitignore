@@ -145,3 +145,5 @@ dist
 
 #server config(API keys)
 ./server/config/
+./server/credentials.json
+./server/credentials.json

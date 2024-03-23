@@ -1,5 +1,6 @@
 import { google } from 'googleapis';
 import fs from 'fs';
+//API_KEY= AIzaSyAvS1LrIn-aj0aG5fraSv1ozMUYTcXCoRI
 
 function readDataFromFile(filePath) {
   // Read data from data.json file synchronously

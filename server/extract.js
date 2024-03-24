@@ -15,7 +15,7 @@ async function extractor() {
   });
 
   await page.select('#sos-select-search-type', '4');
-  await page.select('#sos-select-search-date', '0');
+  await page.select('#sos-select-search-date', '2');
   await page.type('#event-name-filter', '');
   await page.select('#event-country-filter', 'United States and Canada');
   await page.click('#select-filter-submit-button');

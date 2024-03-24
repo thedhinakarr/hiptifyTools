@@ -3,10 +3,10 @@ import fs from 'fs';
 //API_KEY= AIzaSyAvS1LrIn-aj0aG5fraSv1ozMUYTcXCoRI
 
 function readDataFromFile(filePath) {
-  // Read data from data.json file synchronously
+
   try {
     const data = fs.readFileSync(filePath, 'utf8');
-    // Parse JSON data
+
     const jsonData = JSON.parse(data);
     return jsonData;
   } catch (error) {
@@ -38,7 +38,6 @@ const drive = google.drive({
     scopes: ['https://www.googleapis.com/auth/drive'],
   }),
 });
-
 
 const addPermissionsToSheet = async (spreadsheetId) => {
   try {

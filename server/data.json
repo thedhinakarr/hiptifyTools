@@ -1,43 +1,833 @@
 [
   {
-    "eventTitle": "UK Healthcare Boys Sweet 16 - Game #15 (TMUSA)",
+    "eventTitle": "UK Healthcare Boys Sweet 16 - Game #13 (TMUSA)",
     "agentCodes": "(TMUSA)",
-    "link": "https://www.ticketmaster.com/event/1600606C681B0D51",
+    "link": "https://www.ticketmaster.com/event/1600606C68110D42",
     "venue": "Rupp Arena",
     "city": "Lexington, KY",
-    "Eventdate": "Sat, 3/23/2024 7:30 PM",
-    "presaleDate": "3/24/2024 12:30 AM",
-    "publicDate": "3/24/2024 12:00 AM"
+    "Eventdate": "Sat, 3/23/2024 11:00 AM",
+    "presaleDate": "3/23/2024 12:00 AM",
+    "publicDate": "3/23/2024 12:00 AM"
+  },
+  {
+    "eventTitle": "UK Healthcare Boys Sweet 16 - Game #13 (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/1600606C68110D42",
+    "venue": "Rupp Arena",
+    "city": "Lexington, KY",
+    "Eventdate": "Sat, 3/23/2024 11:00 AM",
+    "presaleDate": "3/23/2024 12:30 AM",
+    "publicDate": "3/23/2024 12:00 AM"
+  },
+  {
+    "eventTitle": "UK Healthcare Boys Sweet 16 - Game #13 (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/1600606C68110D42",
+    "venue": "Rupp Arena",
+    "city": "Lexington, KY",
+    "Eventdate": "Sat, 3/23/2024 11:00 AM",
+    "presaleDate": "3/23/2024 2:30 AM",
+    "publicDate": "3/23/2024 12:00 AM"
+  },
+  {
+    "eventTitle": "UK Healthcare Boys Sweet 16 - Game #14 (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/1600606C68160D48",
+    "venue": "Rupp Arena",
+    "city": "Lexington, KY",
+    "Eventdate": "Sat, 3/23/2024 1:30 PM",
+    "presaleDate": "3/23/2024 5:00 AM",
+    "publicDate": "3/23/2024 12:00 AM"
+  },
+  {
+    "eventTitle": "UK Healthcare Boys Sweet 16 - Game #14 (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/1600606C68160D48",
+    "venue": "Rupp Arena",
+    "city": "Lexington, KY",
+    "Eventdate": "Sat, 3/23/2024 1:30 PM",
+    "presaleDate": "3/23/2024 7:00 AM",
+    "publicDate": "3/23/2024 12:00 AM"
+  },
+  {
+    "eventTitle": "UK Healthcare Boys Sweet 16 - Game #14 (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/1600606C68160D48",
+    "venue": "Rupp Arena",
+    "city": "Lexington, KY",
+    "Eventdate": "Sat, 3/23/2024 1:30 PM",
+    "presaleDate": "3/23/2024 7:30 AM",
+    "publicDate": "3/23/2024 12:00 AM"
+  },
+  {
+    "eventTitle": "UK Healthcare Boys Sweet 16 - Game #14 (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/1600606C68160D48",
+    "venue": "Rupp Arena",
+    "city": "Lexington, KY",
+    "Eventdate": "Sat, 3/23/2024 1:30 PM",
+    "presaleDate": "3/23/2024 9:29 AM",
+    "publicDate": "3/23/2024 12:00 AM"
+  },
+  {
+    "eventTitle": "3-Day GA - Caesars Palace Experience (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/17006069DEC456A0",
+    "venue": "FORMULA 1 HEINEKEN SILVER LAS VEGAS GRAND PRIX",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Thu, 11/21/2024 12:00 AM",
+    "presaleDate": "3/23/2024 12:30 AM",
+    "publicDate": "3/25/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "3-Day GA - Flamingo Zone by Caesars Rewards (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/170060632CE4A8F4",
+    "venue": "FORMULA 1 HEINEKEN SILVER LAS VEGAS GRAND PRIX",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Thu, 11/21/2024 12:00 AM",
+    "presaleDate": "3/23/2024 12:30 AM",
+    "publicDate": "3/25/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "3-Day Grandstand - West Harmon Zone (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/1700605DD0C4959E",
+    "venue": "FORMULA 1 HEINEKEN SILVER LAS VEGAS GRAND PRIX",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Thu, 11/21/2024 12:00 AM",
+    "presaleDate": "3/23/2024 12:30 AM",
+    "publicDate": "3/25/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "3-Day Grandstands & GA - T-Mobile Zone at Sphere (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/1700605DF7F7A21F",
+    "venue": "FORMULA 1 HEINEKEN SILVER LAS VEGAS GRAND PRIX",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Thu, 11/21/2024 12:00 AM",
+    "presaleDate": "3/23/2024 12:30 AM",
+    "publicDate": "3/25/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "3-Day Hospitality - Club Paris (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/1700605D20AEA810",
+    "venue": "FORMULA 1 HEINEKEN SILVER LAS VEGAS GRAND PRIX",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Thu, 11/21/2024 12:00 AM",
+    "presaleDate": "3/23/2024 12:30 AM",
+    "publicDate": "3/25/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "3-Day Main Grandstand - East Harmon Zone By Virgin Hotels Las Vegas (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/1700605D11DDA5F2",
+    "venue": "FORMULA 1 HEINEKEN SILVER LAS VEGAS GRAND PRIX",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Thu, 11/21/2024 12:00 AM",
+    "presaleDate": "3/23/2024 12:30 AM",
+    "publicDate": "3/25/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "3-Day Shared Club - South Koval Zone (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/1700606324B2A897",
+    "venue": "FORMULA 1 HEINEKEN SILVER LAS VEGAS GRAND PRIX",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Thu, 11/21/2024 12:00 AM",
+    "presaleDate": "3/23/2024 12:30 AM",
+    "publicDate": "3/25/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "3-Day Skybox - East Harmon Zone by Virgin Hotels Las Vegas (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/170060632AE2A8D8",
+    "venue": "FORMULA 1 HEINEKEN SILVER LAS VEGAS GRAND PRIX",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Thu, 11/21/2024 12:00 AM",
+    "presaleDate": "3/23/2024 12:30 AM",
+    "publicDate": "3/25/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "3-Day Turn 3 Club - East Harmon Zone by Virgin Hotels Las Vegas (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/1700606326C5A8AA",
+    "venue": "FORMULA 1 HEINEKEN SILVER LAS VEGAS GRAND PRIX",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Thu, 11/21/2024 12:00 AM",
+    "presaleDate": "3/23/2024 12:30 AM",
+    "publicDate": "3/25/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "Friday Single Day GA - Flamingo Zone by Caesars (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/1700605D2626A8C1",
+    "venue": "FORMULA 1 HEINEKEN SILVER LAS VEGAS GRAND PRIX",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Fri, 11/22/2024 6:30 PM",
+    "presaleDate": "3/23/2024 12:30 AM",
+    "publicDate": "3/25/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "Saturday Single Day GA - Flamingo Zone by Caesars (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/1700605D26ABA8CC",
+    "venue": "FORMULA 1 HEINEKEN SILVER LAS VEGAS GRAND PRIX",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Sat, 11/23/2024 10:00 PM",
+    "presaleDate": "3/23/2024 12:30 AM",
+    "publicDate": "3/25/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "Thursday Single Day GA - Flamingo Zone by Caesars (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/1700605D2587A8B2",
+    "venue": "FORMULA 1 HEINEKEN SILVER LAS VEGAS GRAND PRIX",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Thu, 11/21/2024 6:30 PM",
+    "presaleDate": "3/23/2024 12:30 AM",
+    "publicDate": "3/25/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "Brunch of Broken Dreams (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/brunch-of-broken-dreams-hard-rock-live-las-vegas-tickets/13361044",
+    "venue": "Hard Rock Live Las Vegas",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Sat, 4/6/2024 11:00 AM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 12:30 AM"
+  },
+  {
+    "eventTitle": "Brunch of Broken Dreams (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/brunch-of-broken-dreams-hard-rock-live-las-vegas-tickets/13361064",
+    "venue": "Hard Rock Live Las Vegas",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Sat, 4/13/2024 11:00 AM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 12:30 AM"
+  },
+  {
+    "eventTitle": "Brunch of Broken Dreams (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/brunch-of-broken-dreams-hard-rock-live-las-vegas-tickets/13361074",
+    "venue": "Hard Rock Live Las Vegas",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Sat, 4/20/2024 11:00 AM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 12:30 AM"
+  },
+  {
+    "eventTitle": "Brunch of Broken Dreams (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/brunch-of-broken-dreams-hard-rock-live-las-vegas-tickets/13361054",
+    "venue": "Hard Rock Live Las Vegas",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Sat, 4/27/2024 11:00 AM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 12:30 AM"
+  },
+  {
+    "eventTitle": "Eli Brown (AXS)",
+    "agentCodes": "(AXS)",
+    "link": "https://www.axs.com/events/536144/eli-brown-tickets",
+    "venue": "Mission Ballroom",
+    "city": "Denver, CO",
+    "Eventdate": "Fri, 8/2/2024 9:00 PM",
+    "presaleDate": "3/23/2024 12:30 AM",
+    "publicDate": "3/23/2024 12:30 AM"
+  },
+  {
+    "eventTitle": "Grahame Lesh & Friends W/ Special Guest Stu Allen (OTHER)",
+    "agentCodes": "(OTHER)",
+    "link": "https://www.tixr.com/groups/guildtheatre/events/grahame-lesh-friends-w-special-guest-stu-allen-98982",
+    "venue": "The Guild Theatre",
+    "city": "Menlo Park, CA",
+    "Eventdate": "Fri, 5/3/2024 8:00 PM",
+    "presaleDate": "3/22/2024 12:30 AM",
+    "publicDate": "3/23/2024 12:30 AM"
+  },
+  {
+    "eventTitle": "Late For Work (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/late-for-work-hollywood-improv-the-main-room-tickets/13362884",
+    "venue": "Hollywood Improv (The Main Room)",
+    "city": "Los Angeles, CA",
+    "Eventdate": "Sun, 3/31/2024 9:15 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 12:30 AM"
+  },
+  {
+    "eventTitle": "OT7 Quanny at NOTO Philadelphia (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/02006073F04665DE",
+    "venue": "NOTO",
+    "city": "Philadelphia, PA",
+    "Eventdate": "Sat, 4/6/2024 10:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 12:30 AM"
+  },
+  {
+    "eventTitle": "Rolling Loud (FGATE)",
+    "agentCodes": "(FGATE)",
+    "link": "https://rollingloudla.frontgatetickets.com/event/3jan6spnwyybnb9z",
+    "venue": "Hollywood Park",
+    "city": "Inglewood, CA",
+    "Eventdate": "Fri, 3/14/2025 12:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 12:30 AM"
+  },
+  {
+    "eventTitle": "Rolling Loud (FGATE)",
+    "agentCodes": "(FGATE)",
+    "link": "https://rollingloudla.frontgatetickets.com/event/3jan6spnwyybnb9z",
+    "venue": "Hollywood Park",
+    "city": "Inglewood, CA",
+    "Eventdate": "Sat, 3/15/2025 12:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 12:30 AM"
+  },
+  {
+    "eventTitle": "Rolling Loud (FGATE)",
+    "agentCodes": "(FGATE)",
+    "link": "https://rollingloudla.frontgatetickets.com/event/3jan6spnwyybnb9z",
+    "venue": "Hollywood Park",
+    "city": "Inglewood, CA",
+    "Eventdate": "Sun, 3/16/2025 12:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 12:30 AM"
+  },
+  {
+    "eventTitle": "The Moth (AXS)",
+    "agentCodes": "(AXS)",
+    "link": "https://www.axs.com/events/537862/the-moth-tickets",
+    "venue": "Music Hall of Williamsburg",
+    "city": "Brooklyn, NY",
+    "Eventdate": "Tue, 5/21/2024 7:30 PM",
+    "presaleDate": "3/23/2024 12:30 AM",
+    "publicDate": "3/28/2024 12:30 AM"
+  },
+  {
+    "eventTitle": "Ultra Q & Mt. Eddy (LIVN)",
+    "agentCodes": "(LIVN)",
+    "link": "https://concerts.livenation.com/event/090060721FA23055",
+    "venue": "The Echo",
+    "city": "Los Angeles, CA",
+    "Eventdate": "Fri, 5/24/2024 7:00 PM",
+    "presaleDate": "3/22/2024 12:30 AM",
+    "publicDate": "3/23/2024 12:30 AM"
   },
   {
     "eventTitle": "WALTER BEASLEY (TWEB)",
     "agentCodes": "(TWEB)",
-    "link": "https://www.ticketweb.com/event/walter-beasley-scullers-jazz-club-tickets/13360904",
+    "link": "https://www.ticketweb.com/event/walter-beasley-scullers-jazz-club-tickets/13360884",
     "venue": "Scullers Jazz Club",
     "city": "Boston, MA",
-    "Eventdate": "Fri, 5/31/2024 9:00 PM",
+    "Eventdate": "Sat, 6/1/2024 7:00 PM",
     "presaleDate": "",
-    "publicDate": "3/24/2024 12:30 AM"
+    "publicDate": "3/23/2024 12:30 AM"
   },
   {
-    "eventTitle": "Carrie Underwood Live In Concert (TMUSA)",
+    "eventTitle": "KAWAC Choir 35th Anniversary Concert (TMUSA)",
     "agentCodes": "(TMUSA)",
-    "link": "https://www.ticketmaster.com/event/0A006056EB0D66F8",
-    "venue": "Neal S Blaisdell Arena",
-    "city": "Honolulu, HI",
-    "Eventdate": "Fri, 7/19/2024 8:00 PM",
-    "presaleDate": "3/24/2024 1:30 AM",
-    "publicDate": "3/24/2024 1:30 AM"
+    "link": "https://www.ticketmaster.com/event/07006076CD245552",
+    "venue": "Center Theatre at North Shore Center for the Performing Arts",
+    "city": "Skokie, IL",
+    "Eventdate": "Sun, 4/21/2024 5:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 1:15 AM"
   },
   {
-    "eventTitle": "Carrie Underwood Live In Concert (TMUSA)",
+    "eventTitle": "Hi-Light Festival 2024 (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.ca/event/hi-light-festival-2024-the-starlite-room-tickets/13359574",
+    "venue": "The Starlite Room",
+    "city": "Edmonton, AB",
+    "Eventdate": "Fri, 4/12/2024 7:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 1:30 AM"
+  },
+  {
+    "eventTitle": "Phil Wickham & Brandon Lake Summer Worship Nights Tour (TMUSA)",
     "agentCodes": "(TMUSA)",
-    "link": "https://www.ticketmaster.com/event/0A006056EB1066FA",
-    "venue": "Neal S Blaisdell Arena",
+    "link": "https://www.ticketmaster.com/event/0A006068CFA630DD",
+    "venue": "Tom Moffatt Waikiki Shell",
     "city": "Honolulu, HI",
-    "Eventdate": "Sat, 7/20/2024 8:00 PM",
-    "presaleDate": "3/17/2024 1:40 AM",
-    "publicDate": "3/24/2024 4:30 AM"
+    "Eventdate": "Wed, 8/28/2024 7:00 PM",
+    "presaleDate": "3/23/2024 1:30 AM",
+    "publicDate": "3/26/2024 1:30 AM"
+  },
+  {
+    "eventTitle": "Tim Dillon & Friends! (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/tim-dillon-friends-hollywood-improv-the-main-room-tickets/13361234",
+    "venue": "Hollywood Improv (The Main Room)",
+    "city": "Los Angeles, CA",
+    "Eventdate": "Mon, 3/25/2024 7:15 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 1:30 AM"
+  },
+  {
+    "eventTitle": "Tonight at the Lab ft. Ken Flores, Noel Miller, Michael Lenoci, Mark Hayes and more TBA! (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/13362084",
+    "venue": "Hollywood Improv (The Lab)",
+    "city": "Los Angeles, CA",
+    "Eventdate": "Tue, 3/26/2024 9:30 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 1:30 AM"
+  },
+  {
+    "eventTitle": "Spring Speed Dating at The Senate (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/2D006076E31A73D0",
+    "venue": "The Senate",
+    "city": "Columbia, SC",
+    "Eventdate": "Fri, 4/12/2024 7:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 1:47 AM"
+  },
+  {
+    "eventTitle": "Mismiths (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/-mismiths-neurolux-lounge-tickets/13361454",
+    "venue": "Neurolux Lounge",
+    "city": "Boise, ID",
+    "Eventdate": "Sat, 6/8/2024 8:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 1:50 AM"
+  },
+  {
+    "eventTitle": "Brittany Howard (SEETIX)",
+    "agentCodes": "(SEETIX)",
+    "link": "https://www.seetickets.us/event/brittany-howard/584140",
+    "venue": "Marquee Theatre",
+    "city": "Tempe, AZ",
+    "Eventdate": "Sat, 4/13/2024 8:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 1:57 AM"
+  },
+  {
+    "eventTitle": "Meteors w/ Blue Elephant, Seven Snakes & Fixed Reaction (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/meteors-w-blue-elephant-the-44-sports-grill-and-tickets/13361624",
+    "venue": "The 44 Sports Grill and Nightlife",
+    "city": "Glendale, AZ",
+    "Eventdate": "Fri, 5/24/2024 8:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 2:20 AM"
+  },
+  {
+    "eventTitle": "Brunch of Broken Dreams (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/brunch-of-broken-dreams-hard-rock-live-las-vegas-tickets/13361724",
+    "venue": "Hard Rock Live Las Vegas",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Sat, 5/4/2024 11:00 AM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 2:30 AM"
+  },
+  {
+    "eventTitle": "Brunch of Broken Dreams (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/brunch-of-broken-dreams-hard-rock-live-las-vegas-tickets/13361734",
+    "venue": "Hard Rock Live Las Vegas",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Sat, 5/11/2024 11:00 AM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 2:30 AM"
+  },
+  {
+    "eventTitle": "Brunch of Broken Dreams (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/brunch-of-broken-dreams-hard-rock-live-las-vegas-tickets/13361754",
+    "venue": "Hard Rock Live Las Vegas",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Sat, 5/25/2024 11:00 AM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 2:30 AM"
+  },
+  {
+    "eventTitle": "Brunch of Broken Dreams (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/brunch-of-broken-dreams-hard-rock-live-las-vegas-tickets/13361784",
+    "venue": "Hard Rock Live Las Vegas",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Sat, 6/1/2024 11:00 AM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 2:30 AM"
+  },
+  {
+    "eventTitle": "Brunch of Broken Dreams (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/brunch-of-broken-dreams-hard-rock-live-las-vegas-tickets/13361764",
+    "venue": "Hard Rock Live Las Vegas",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Sat, 6/8/2024 11:00 AM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 2:30 AM"
+  },
+  {
+    "eventTitle": "Brunch of Broken Dreams (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/brunch-of-broken-dreams-hard-rock-live-las-vegas-tickets/13361744",
+    "venue": "Hard Rock Live Las Vegas",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Sat, 6/15/2024 11:00 AM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 2:30 AM"
+  },
+  {
+    "eventTitle": "Brunch of Broken Dreams (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/brunch-of-broken-dreams-hard-rock-live-las-vegas-tickets/13361794",
+    "venue": "Hard Rock Live Las Vegas",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Sat, 6/22/2024 11:00 AM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 2:30 AM"
+  },
+  {
+    "eventTitle": "Brunch of Broken Dreams (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/brunch-of-broken-dreams-hard-rock-live-las-vegas-tickets/13361774",
+    "venue": "Hard Rock Live Las Vegas",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Sat, 6/29/2024 11:00 AM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 2:30 AM"
+  },
+  {
+    "eventTitle": "Erik Santos W/ special guest STELL (AXS)",
+    "agentCodes": "(AXS)",
+    "link": "https://www.axs.com/events/538354/erik-santos-w-special-guest-stell-tickets",
+    "venue": "Saban Theatre",
+    "city": "Beverly Hills, CA",
+    "Eventdate": "Sun, 6/30/2024 8:00 PM",
+    "presaleDate": "3/23/2024 2:30 AM",
+    "publicDate": "3/23/2024 2:30 AM"
+  },
+  {
+    "eventTitle": "Earthquake (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/earthquake-ontario-improv-tickets/13362374",
+    "venue": "Ontario Improv",
+    "city": "Ontario, CA",
+    "Eventdate": "Fri, 5/31/2024 7:30 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 3:30 AM"
+  },
+  {
+    "eventTitle": "Earthquake (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/earthquake-ontario-improv-tickets/13362394",
+    "venue": "Ontario Improv",
+    "city": "Ontario, CA",
+    "Eventdate": "Fri, 5/31/2024 9:45 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 3:30 AM"
+  },
+  {
+    "eventTitle": "Earthquake (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/earthquake-ontario-improv-tickets/13362414",
+    "venue": "Ontario Improv",
+    "city": "Ontario, CA",
+    "Eventdate": "Sat, 6/1/2024 7:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 3:30 AM"
+  },
+  {
+    "eventTitle": "Earthquake (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/earthquake-ontario-improv-tickets/13362404",
+    "venue": "Ontario Improv",
+    "city": "Ontario, CA",
+    "Eventdate": "Sat, 6/1/2024 9:30 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 3:30 AM"
+  },
+  {
+    "eventTitle": "Earthquake (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/earthquake-ontario-improv-tickets/13362384",
+    "venue": "Ontario Improv",
+    "city": "Ontario, CA",
+    "Eventdate": "Sun, 6/2/2024 7:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 3:30 AM"
+  },
+  {
+    "eventTitle": "Steve Byrne (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/steve-byrne-irvine-improv-tickets/13362444",
+    "venue": "Irvine Improv",
+    "city": "Irvine, CA",
+    "Eventdate": "Fri, 7/5/2024 7:30 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 3:30 AM"
+  },
+  {
+    "eventTitle": "Steve Byrne (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/steve-byrne-irvine-improv-tickets/13362464",
+    "venue": "Irvine Improv",
+    "city": "Irvine, CA",
+    "Eventdate": "Fri, 7/5/2024 9:45 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 3:30 AM"
+  },
+  {
+    "eventTitle": "Steve Byrne (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/steve-byrne-irvine-improv-tickets/13362454",
+    "venue": "Irvine Improv",
+    "city": "Irvine, CA",
+    "Eventdate": "Sat, 7/6/2024 7:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 3:30 AM"
+  },
+  {
+    "eventTitle": "Steve Byrne (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/steve-byrne-irvine-improv-tickets/13362474",
+    "venue": "Irvine Improv",
+    "city": "Irvine, CA",
+    "Eventdate": "Sat, 7/6/2024 9:30 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 3:30 AM"
+  },
+  {
+    "eventTitle": "Steve Trevino (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/steve-trevino-brea-improv-tickets/13362484",
+    "venue": "Brea Improv",
+    "city": "Brea, CA",
+    "Eventdate": "Fri, 6/28/2024 7:30 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 3:30 AM"
+  },
+  {
+    "eventTitle": "Steve Trevino (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/steve-trevino-brea-improv-tickets/13362504",
+    "venue": "Brea Improv",
+    "city": "Brea, CA",
+    "Eventdate": "Fri, 6/28/2024 9:45 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 3:30 AM"
+  },
+  {
+    "eventTitle": "Steve Trevino (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/steve-trevino-brea-improv-tickets/13362494",
+    "venue": "Brea Improv",
+    "city": "Brea, CA",
+    "Eventdate": "Sat, 6/29/2024 7:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 3:30 AM"
+  },
+  {
+    "eventTitle": "Steve Trevino (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/steve-trevino-brea-improv-tickets/13362524",
+    "venue": "Brea Improv",
+    "city": "Brea, CA",
+    "Eventdate": "Sat, 6/29/2024 9:30 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 3:30 AM"
+  },
+  {
+    "eventTitle": "Steve Trevino (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/steve-trevino-brea-improv-tickets/13362514",
+    "venue": "Brea Improv",
+    "city": "Brea, CA",
+    "Eventdate": "Sun, 6/30/2024 7:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 3:30 AM"
+  },
+  {
+    "eventTitle": "serpentwithfeet (OTHER)",
+    "agentCodes": "(OTHER)",
+    "link": "https://www.unionstage.com/shows/serpentwithfeet-the-grip-tour/",
+    "venue": "Union Stage",
+    "city": "Washington, DC",
+    "Eventdate": "Mon, 5/20/2024 7:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 3:50 AM"
+  },
+  {
+    "eventTitle": "Arrows In Action (ETIX)",
+    "agentCodes": "(ETIX)",
+    "link": "https://www.etix.com/ticket/p/41083379/arrows-in-action-and-guests-tba-baltimore-ottobar?partner_id=240&_gl=1*1wvslz1*_ga*NzI4NDQ0NzYxLjE2OTIzODEwNDY.*_ga_X74LBGEWTJ*MTcxMTE0NjEzMC41LjEuMTcxMTE0NjE1MC40MC4wLjA.",
+    "venue": "Ottobar",
+    "city": "Baltimore, MD",
+    "Eventdate": "Tue, 7/9/2024 7:30 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 3:53 AM"
+  },
+  {
+    "eventTitle": "Shawn Stockman of Boyz II Men (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.com/event/shawn-stockman-of-boyz-ii-whisky-a-go-go-tickets/13362564",
+    "venue": "Whisky A Go Go",
+    "city": "West Hollywood, CA",
+    "Eventdate": "Wed, 5/8/2024 8:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 4:15 AM"
+  },
+  {
+    "eventTitle": "Frogtown Prom (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/09006076E45E4CEE",
+    "venue": "The Moroccan Lounge",
+    "city": "Los Angeles, CA",
+    "Eventdate": "Sat, 4/13/2024 9:30 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 4:50 AM"
+  },
+  {
+    "eventTitle": "Kat Hasty + Maggie Antone: The Lonestars & Lovers Tour (OTHER)",
+    "agentCodes": "(OTHER)",
+    "link": "https://dice.fm/partner/dice/event/6gqa7-kat-hasty-maggie-antone-the-lonestars-lovers-tour-8th-jun-eddies-attic-decatur-tickets?dice_id=2620636&dice_channel=web&dice_tags=organic&dice_campaign=DICE&dice_feature=mio_marketing&_branch_match_id=1295853924301727935&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9ZLyUxO1UvL1Y8yNko0Tk4zTE00MQIAPxxsziEAAAA%3D",
+    "venue": "Eddie’S Attic",
+    "city": "Decatur, GA",
+    "Eventdate": "Sat, 6/8/2024 9:15 PM",
+    "presaleDate": "3/20/2024 7:30 PM",
+    "publicDate": "3/23/2024 6:00 AM"
+  },
+  {
+    "eventTitle": "Barenaked Ladies (ETIX)",
+    "agentCodes": "(ETIX)",
+    "link": "https://www.etix.com/ticket/p/47746544",
+    "venue": "Tulsa Theater",
+    "city": "Tulsa, OK",
+    "Eventdate": "Tue, 9/24/2024 7:30 PM",
+    "presaleDate": "3/23/2024 8:30 AM",
+    "publicDate": "3/23/2024 8:30 AM"
+  },
+  {
+    "eventTitle": "Destroy Boys with Special Guests (TWEB)",
+    "agentCodes": "(TWEB)",
+    "link": "https://www.ticketweb.ca/event/destroy-boys-with-special-guests-hollywood-theatre-tickets/13361324",
+    "venue": "Hollywood Theatre",
+    "city": "Vancouver, BC",
+    "Eventdate": "Sat, 10/26/2024 6:30 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 9:45 AM"
+  },
+  {
+    "eventTitle": "TNA Wrestling Presents: iMPACT LIVE (AXS)",
+    "agentCodes": "(AXS)",
+    "link": "https://www.axs.com/events/537024/tna-wrestling-presents-impact-live-tickets",
+    "venue": "MegaCorp Pavilion",
+    "city": "Newport, KY",
+    "Eventdate": "Sat, 5/18/2024 6:30 PM",
+    "presaleDate": "3/23/2024 6:30 PM",
+    "publicDate": "3/23/2024 7:30 PM"
+  },
+  {
+    "eventTitle": "TNA Wrestling Presents: iMPACT LIVE (AXS)",
+    "agentCodes": "(AXS)",
+    "link": "https://www.axs.com/events/537026/tna-wrestling-presents-impact-live-tickets",
+    "venue": "MegaCorp Pavilion",
+    "city": "Newport, KY",
+    "Eventdate": "Sun, 5/19/2024 6:30 PM",
+    "presaleDate": "3/23/2024 6:30 PM",
+    "publicDate": "3/23/2024 7:30 PM"
+  },
+  {
+    "eventTitle": "Capital Jazz Fest 3-Day Pass (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/1500606FBF5A3E11",
+    "venue": "Merriweather Post Pavilion",
+    "city": "Columbia, MD",
+    "Eventdate": "Fri, 6/7/2024 12:00 AM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 7:30 PM"
+  },
+  {
+    "eventTitle": "Capital Jazz Fest Friday (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/1500606FBD223CC6",
+    "venue": "Merriweather Post Pavilion",
+    "city": "Columbia, MD",
+    "Eventdate": "Fri, 6/7/2024 7:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 7:30 PM"
+  },
+  {
+    "eventTitle": "Capital Jazz Fest Saturday (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/1500606FBDD43D6F",
+    "venue": "Merriweather Post Pavilion",
+    "city": "Columbia, MD",
+    "Eventdate": "Sat, 6/8/2024 12:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 7:30 PM"
+  },
+  {
+    "eventTitle": "Capital Jazz Fest Sunday (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/1500606FBE613DD4",
+    "venue": "Merriweather Post Pavilion",
+    "city": "Columbia, MD",
+    "Eventdate": "Sun, 6/9/2024 12:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 7:30 PM"
+  },
+  {
+    "eventTitle": "Grace Potter (ETIX)",
+    "agentCodes": "(ETIX)",
+    "link": "https://www.etix.com/ticket/p/89778423",
+    "venue": "Indian Ranch Amphitheatre",
+    "city": "Webster, MA",
+    "Eventdate": "Sun, 8/4/2024 1:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 7:30 PM"
+  },
+  {
+    "eventTitle": "Hampton Jazz & Music Festival (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/0100604CDDD4588D",
+    "venue": "Hampton Coliseum",
+    "city": "Hampton, VA",
+    "Eventdate": "Fri, 6/28/2024 7:30 PM",
+    "presaleDate": "3/23/2024 7:30 PM",
+    "publicDate": "3/23/2024 7:30 PM"
+  },
+  {
+    "eventTitle": "Hampton Jazz & Music Festival (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/0100606697662AEB",
+    "venue": "Hampton Coliseum",
+    "city": "Hampton, VA",
+    "Eventdate": "Sat, 6/29/2024 7:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 7:30 PM"
+  },
+  {
+    "eventTitle": "Hampton Jazz & Music Festival (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/0100606697692AF8",
+    "venue": "Hampton Coliseum",
+    "city": "Hampton, VA",
+    "Eventdate": "Sun, 6/30/2024 2:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 7:30 PM"
+  },
+  {
+    "eventTitle": "Kathleen Edwards (OTHER)",
+    "agentCodes": "(OTHER)",
+    "link": "https://www.kathleenedwards.com/",
+    "venue": "Spire Center For Performing Arts",
+    "city": "Plymouth, MA",
+    "Eventdate": "Sat, 6/22/2024 7:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 7:30 PM"
   },
   {
     "eventTitle": "Larry McCray (TMUSA)",
@@ -50,33 +840,323 @@
     "publicDate": "3/24/2024 7:30 PM"
   },
   {
+    "eventTitle": "Loomis Bros. Circus - April 16 7:30pm (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/0E00606BC5AA31F5",
+    "venue": "JAMES BROWN ARENA",
+    "city": "Augusta, GA",
+    "Eventdate": "Tue, 4/16/2024 7:30 PM",
+    "presaleDate": "3/13/2024 7:30 PM",
+    "publicDate": "3/23/2024 7:30 PM"
+  },
+  {
+    "eventTitle": "Loomis Bros. Circus - April 17 4:30pm (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/0E00606BC5AE31FF",
+    "venue": "JAMES BROWN ARENA",
+    "city": "Augusta, GA",
+    "Eventdate": "Wed, 4/17/2024 4:30 PM",
+    "presaleDate": "3/13/2024 7:30 PM",
+    "publicDate": "3/23/2024 7:30 PM"
+  },
+  {
+    "eventTitle": "Loomis Bros. Circus - April 17 7:30pm (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/0E00606BC5B2320E",
+    "venue": "JAMES BROWN ARENA",
+    "city": "Augusta, GA",
+    "Eventdate": "Wed, 4/17/2024 7:30 PM",
+    "presaleDate": "3/13/2024 7:30 PM",
+    "publicDate": "3/23/2024 7:30 PM"
+  },
+  {
+    "eventTitle": "The Sensational Barnes Brothers (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/0E006066CED54892",
+    "venue": "District Live",
+    "city": "Savannah, GA",
+    "Eventdate": "Thu, 5/2/2024 8:00 PM",
+    "presaleDate": "3/23/2024 7:30 PM",
+    "publicDate": "3/23/2024 7:30 PM"
+  },
+  {
+    "eventTitle": "TNA Wrestling: IMPACT LIVE (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/0000606DCF653969",
+    "venue": "Washington Avenue Armory",
+    "city": "Albany, NY",
+    "Eventdate": "Sat, 5/4/2024 7:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 7:30 PM"
+  },
+  {
+    "eventTitle": "TNA Wrestling: Two Day Pass (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/0000606DCF6939AC",
+    "venue": "Washington Avenue Armory",
+    "city": "Albany, NY",
+    "Eventdate": "Fri, 5/3/2024 12:00 AM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 7:30 PM"
+  },
+  {
+    "eventTitle": "TNA Wrestling: Under Siege (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/0000606DCF61395F",
+    "venue": "Washington Avenue Armory",
+    "city": "Albany, NY",
+    "Eventdate": "Fri, 5/3/2024 7:00 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 7:30 PM"
+  },
+  {
+    "eventTitle": "2024 National Collegiate Beach Volleyball Championship (EBRITE)",
+    "agentCodes": "(EBRITE)",
+    "link": "https://www.eventbrite.com/e/2024-national-collegiate-beach-volleyball-championship-may-3-5-2024-tickets-744718923347?aff=DayPassPresaleEmail&utm_campaign=BVB_20240320_Beach+Day+Pass+-+NEW&utm_medium=email&utm_source=sfmc&et_rid=1286280353",
+    "venue": "Gulf Shores Public Beach",
+    "city": "Gulf Shores, AL",
+    "Eventdate": "Fri, 5/3/2024 8:00 AM",
+    "presaleDate": "3/20/2024 8:30 PM",
+    "publicDate": "3/23/2024 8:30 PM"
+  },
+  {
+    "eventTitle": "Bridge City Strutters Spring Revue (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/3A006065B4CE31BA",
+    "venue": "Julie Rogers Theatre",
+    "city": "Beaumont, TX",
+    "Eventdate": "Fri, 4/19/2024 6:30 PM",
+    "presaleDate": "",
+    "publicDate": "3/23/2024 8:30 PM"
+  },
+  {
     "eventTitle": "Chris Tomlin - Holy Forever World Tour (TMUSA)",
     "agentCodes": "(TMUSA)",
     "link": "https://www.ticketmaster.com/event/0A00606DAD411C58",
     "venue": "Viejas Arena at Aztec Bowl San Diego State University",
     "city": "San Diego, CA",
     "Eventdate": "Fri, 10/11/2024 7:00 PM",
-    "presaleDate": "3/24/2024 8:30 PM",
+    "presaleDate": "3/23/2024 8:30 PM",
     "publicDate": "3/28/2024 8:30 PM"
   },
   {
-    "eventTitle": "Crowded House (LIVN)",
-    "agentCodes": "(LIVN)",
-    "link": "https://concerts.livenation.com/event/0F00606E26A64F41",
-    "venue": "Chateau Ste Michelle Winery",
-    "city": "Woodinville, WA",
-    "Eventdate": "Sat, 9/21/2024 7:00 PM",
-    "presaleDate": "3/24/2024 10:30 PM",
-    "publicDate": "3/25/2024 10:30 PM"
+    "eventTitle": "Miranda Lambert (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/07006049C384309D",
+    "venue": "Illinois State Fairgrounds Il State Fair",
+    "city": "Springfield, IL",
+    "Eventdate": "Sat, 8/17/2024 8:00 PM",
+    "presaleDate": "3/22/2024 8:30 PM",
+    "publicDate": "3/23/2024 8:30 PM"
+  },
+  {
+    "eventTitle": "UK Healthcare Boys Sweet 16 - Game #15 (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/1600606C681B0D51",
+    "venue": "Rupp Arena",
+    "city": "Lexington, KY",
+    "Eventdate": "Sat, 3/23/2024 7:30 PM",
+    "presaleDate": "3/23/2024 10:00 PM",
+    "publicDate": "3/24/2024 12:00 AM"
+  },
+  {
+    "eventTitle": "AEW Dynamite & Rampage (AXS)",
+    "agentCodes": "(AXS)",
+    "link": "https://www.axs.com/events/536812/aew-dynamite-rampage-tickets",
+    "venue": "Mechanics Bank Arena",
+    "city": "Bakersfield, CA",
+    "Eventdate": "Wed, 5/22/2024 4:30 PM",
+    "presaleDate": "3/23/2024 10:30 PM",
+    "publicDate": "3/23/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "AEW Presents Dynamite (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/0F00606F436A6276",
+    "venue": "Angel Of The Winds Arena",
+    "city": "Everett, WA",
+    "Eventdate": "Wed, 5/15/2024 4:30 PM",
+    "presaleDate": "3/23/2024 10:30 PM",
+    "publicDate": "3/23/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "Damsels of Destruction Demolition Derby (ETIX)",
+    "agentCodes": "(ETIX)",
+    "link": "https://www.etix.com/ticket/p/76767666/damsels-of-destruction-demolition-derby-costa-mesa-the-action-sports-arena-at-the-oc-fair?utm_source=hive&utm_medium=email&utm_campaign=hive_email_id_282402_032024-vip-access-entertainment-and-events&h_sid=9533a10daf-5d39f3f200f62221ef034708&h_slt=eyJoYXNoIjoiOGRkNjY4Y2FkYzlkOGZiIiwiaGl2ZV91c2VyX2lkIjoxODA5Njd9",
+    "venue": "The Action Sports Arena at the OC Fair",
+    "city": "Costa Mesa, CA",
+    "Eventdate": "Sat, 8/3/2024 7:30 PM",
+    "presaleDate": "3/21/2024 10:30 PM",
+    "publicDate": "3/23/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "Framework In The Desert (OTHER)",
+    "agentCodes": "(OTHER)",
+    "link": "https://dice.fm/partner/dice/event/wkrpg-framework-in-the-desert-friday-12th-apr-atlantic-aviation-thermal-tickets?dice_id=2648973&dice_channel=web&dice_tags=organic&dice_campaign=DICE&dice_feature=mio_marketing&_branch_match_id=1298340124074564976&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9ZLyUxO1UvL1S9OMTdINTS3TDU1NrdPzk9JtXUL9wk2MgEAphXi0y0AAAA%3D",
+    "venue": "Atlantic Aviation",
+    "city": "Thermal, CA",
+    "Eventdate": "Fri, 4/12/2024 10:00 PM",
+    "presaleDate": "3/20/2024 10:30 PM",
+    "publicDate": "3/23/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "Framework In The Desert (OTHER)",
+    "agentCodes": "(OTHER)",
+    "link": "https://dice.fm/partner/1642-las-palmas-llc-ta-framework-presents/event/y56wa-framework-in-the-desert-saturday-13th-apr-atlantic-aviation-thermal-tickets?dice_id=2649068&dice_channel=web&dice_tags=organic&dice_campaign=1642+Las+Palmas+LLC+t%2Fa+Framework+Presents&dice_feature=mio_marketing&_branch_match_id=1298340124074564976&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9ZLyUxO1UvL1Y%2B0NDCwNEkyMDA0SrNPzk9JtXUL9wk2MgEAg796hC0AAAA%3D",
+    "venue": "Atlantic Aviation",
+    "city": "Thermal, CA",
+    "Eventdate": "Sat, 4/13/2024 10:00 PM",
+    "presaleDate": "3/20/2024 10:30 PM",
+    "publicDate": "3/23/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "Framework In The Desert (OTHER)",
+    "agentCodes": "(OTHER)",
+    "link": "https://dice.fm/partner/dice/event/en386-framework-in-the-desert-sunday-14th-apr-atlantic-aviation-thermal-tickets?dice_id=2649140&dice_channel=web&dice_tags=organic&dice_campaign=DICE&dice_feature=mio_marketing&_branch_match_id=1298340124074564976&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9ZLyUxO1UvL1S8zN0i0SEsySExMNLRPzk9JtXUL9wk2MgEA0i%2B33C0AAAA%3D",
+    "venue": "Atlantic Aviation",
+    "city": "Thermal, CA",
+    "Eventdate": "Sun, 4/14/2024 10:00 PM",
+    "presaleDate": "3/20/2024 10:30 PM",
+    "publicDate": "3/23/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "LADY GAGA JAZZ & PIANO (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/2E006067AD5B0AFD",
+    "venue": "Dolby Live",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Wed, 6/19/2024 8:00 PM",
+    "presaleDate": "3/23/2024 10:30 PM",
+    "publicDate": "3/23/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "LADY GAGA JAZZ & PIANO (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/2E006067AD550AFA",
+    "venue": "Dolby Live",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Thu, 6/20/2024 8:00 PM",
+    "presaleDate": "3/23/2024 10:30 PM",
+    "publicDate": "3/23/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "LADY GAGA JAZZ & PIANO (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/2E006067AD641035",
+    "venue": "Dolby Live",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Thu, 6/27/2024 8:00 PM",
+    "presaleDate": "3/23/2024 10:30 PM",
+    "publicDate": "3/23/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "LADY GAGA JAZZ & PIANO (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/2E006067AD671100",
+    "venue": "Dolby Live",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Sat, 6/29/2024 8:00 PM",
+    "presaleDate": "3/23/2024 10:30 PM",
+    "publicDate": "3/23/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "LADY GAGA JAZZ & PIANO (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/2E006067AD6D120B",
+    "venue": "Dolby Live",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Sun, 6/30/2024 8:00 PM",
+    "presaleDate": "3/23/2024 10:30 PM",
+    "publicDate": "3/23/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "LADY GAGA JAZZ & PIANO (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/2E006067AD701236",
+    "venue": "Dolby Live",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Wed, 7/3/2024 8:00 PM",
+    "presaleDate": "3/23/2024 10:30 PM",
+    "publicDate": "3/23/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "LADY GAGA JAZZ & PIANO (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/2E006067AD771304",
+    "venue": "Dolby Live",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Fri, 7/5/2024 8:00 PM",
+    "presaleDate": "3/23/2024 10:30 PM",
+    "publicDate": "3/23/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "LADY GAGA JAZZ & PIANO (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/2E006067AD7D1306",
+    "venue": "Dolby Live",
+    "city": "Las Vegas, NV",
+    "Eventdate": "Sat, 7/6/2024 8:00 PM",
+    "presaleDate": "3/23/2024 10:30 PM",
+    "publicDate": "3/23/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "Motorhome Madness Demolition Derby (ETIX)",
+    "agentCodes": "(ETIX)",
+    "link": "https://www.etix.com/ticket/p/50866266/motorhome-madness-demolition-derby-costa-mesa-the-action-sports-arena-at-the-oc-fair?utm_source=hive&utm_medium=email&utm_campaign=hive_email_id_282402_032024-vip-access-entertainment-and-events",
+    "venue": "The Action Sports Arena at the OC Fair",
+    "city": "Costa Mesa, CA",
+    "Eventdate": "Wed, 7/31/2024 7:30 PM",
+    "presaleDate": "3/21/2024 10:30 PM",
+    "publicDate": "3/23/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "Motorhome Madness Demolition Derby (ETIX)",
+    "agentCodes": "(ETIX)",
+    "link": "https://www.etix.com/ticket/p/35131464/motorhome-madness-demolition-derby-costa-mesa-the-action-sports-arena-at-the-oc-fair?utm_source=hive&utm_medium=email&utm_campaign=hive_email_id_282402_032024-vip-access-entertainment-and-events",
+    "venue": "The Action Sports Arena at the OC Fair",
+    "city": "Costa Mesa, CA",
+    "Eventdate": "Sun, 8/4/2024 7:30 PM",
+    "presaleDate": "3/21/2024 10:30 PM",
+    "publicDate": "3/23/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "Motorhome Madness Demolition Derby - Police Chiefs vs Fire Chiefs (ETIX)",
+    "agentCodes": "(ETIX)",
+    "link": "https://www.etix.com/ticket/p/41930176/motorhome-madness-demolition-derby-police-chiefs-vs-fire-chiefs-costa-mesa-the-action-sports-arena-at-the-oc-fair?utm_source=hive&utm_medium=email&utm_campaign=hive_email_id_282402_032024-vip-access-entertainment-and-events",
+    "venue": "The Action Sports Arena at the OC Fair",
+    "city": "Costa Mesa, CA",
+    "Eventdate": "Thu, 8/1/2024 7:30 PM",
+    "presaleDate": "3/21/2024 10:30 PM",
+    "publicDate": "3/23/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "Orange Crush Demolition Derby (ETIX)",
+    "agentCodes": "(ETIX)",
+    "link": "https://www.etix.com/ticket/p/78885147/orange-crush-demolition-derby-costa-mesa-the-action-sports-arena-at-the-oc-fair?utm_source=hive&utm_medium=email&utm_campaign=hive_email_id_282402_032024-vip-access-entertainment-and-events&h_sid=9533a10daf-5d39f3f200f62221ef034708&h_slt=eyJoYXNoIjoiOGRkNjY4Y2FkYzlkOGZiIiwiaGl2ZV91c2VyX2lkIjoxODA5Njd9",
+    "venue": "The Action Sports Arena at the OC Fair",
+    "city": "Costa Mesa, CA",
+    "Eventdate": "Fri, 8/2/2024 7:30 PM",
+    "presaleDate": "3/21/2024 10:30 PM",
+    "publicDate": "3/23/2024 10:30 PM"
+  },
+  {
+    "eventTitle": "Tim Dillon: American Royalty (ETIX)",
+    "agentCodes": "(ETIX)",
+    "link": "https://www.etix.com/ticket/p/56745628",
+    "venue": "Tachi Palace Hotel & Casino",
+    "city": "Lemoore, CA",
+    "Eventdate": "Sat, 5/18/2024 8:00 PM",
+    "presaleDate": "3/22/2024 10:30 PM",
+    "publicDate": "3/23/2024 10:30 PM"
   },
   {
     "eventTitle": "Women of Country Tour (AXS)",
     "agentCodes": "(AXS)",
-    "link": "https://www.axs.com/events/531875/women-of-country-tour-tickets",
+    "link": "https://www.axs.com/events/531874/women-of-country-tour-tickets",
     "venue": "Opry House",
     "city": "Nashville, TN",
-    "Eventdate": "Sat, 6/22/2024 9:00 AM",
+    "Eventdate": "Fri, 6/21/2024 9:00 AM",
     "presaleDate": "",
-    "publicDate": "3/24/2024 10:30 PM"
+    "publicDate": "3/23/2024 10:30 PM"
   }
 ]

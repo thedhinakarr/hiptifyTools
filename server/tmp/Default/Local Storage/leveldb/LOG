@@ -1,15 +1,6 @@
-2024/03/24-02:44:59.718 2c03 Reusing MANIFEST /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Local Storage/leveldb/MANIFEST-000001
-2024/03/24-02:44:59.721 2c03 Recovering log #25
-2024/03/24-02:44:59.722 2c03 Reusing old log /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Local Storage/leveldb/000025.log 
-2024/03/24-02:45:18.333 2c03 Level-0 table #29: started
-2024/03/24-02:45:18.358 2c03 Level-0 table #29: 23169 bytes OK
-2024/03/24-02:45:18.404 2c03 Delete type=0 #25
-2024/03/24-02:45:18.406 2c03 Compacting 4@0 + 1@1 files
-2024/03/24-02:45:18.433 2c03 Generated table #30@0: 591 keys, 483242 bytes
-2024/03/24-02:45:18.433 2c03 Compacted 4@0 + 1@1 files => 483242 bytes
-2024/03/24-02:45:18.471 2c03 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/03/24-02:45:18.474 2c03 Delete type=2 #29
-2024/03/24-02:45:18.474 2c03 Delete type=2 #20
-2024/03/24-02:45:18.474 2c03 Delete type=2 #23
-2024/03/24-02:45:18.474 2c03 Delete type=2 #26
-2024/03/24-02:45:18.474 2c03 Delete type=2 #18
+2024/03/24-13:50:14.295 2e03 Reusing MANIFEST /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Local Storage/leveldb/MANIFEST-000001
+2024/03/24-13:50:14.298 2e03 Recovering log #32
+2024/03/24-13:50:14.299 2e03 Reusing old log /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Local Storage/leveldb/000032.log 
+2024/03/24-13:51:35.523 2e03 Level-0 table #36: started
+2024/03/24-13:51:35.546 2e03 Level-0 table #36: 22418 bytes OK
+2024/03/24-13:51:35.587 2e03 Delete type=0 #32

@@ -30,3 +30,6 @@ async function login() {
 }
 
 login();
+
+
+export default login;

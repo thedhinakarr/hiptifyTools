@@ -2,27 +2,6 @@ import { google } from 'googleapis';
 import fs from 'fs';
 //API_KEY= AIzaSyAvS1LrIn-aj0aG5fraSv1ozMUYTcXCoRI
 
-function readDataFromFile(filePath) {
-
-  try {
-    const data = fs.readFileSync(filePath, 'utf8');
-
-    const jsonData = JSON.parse(data);
-    return jsonData;
-  } catch (error) {
-    // If an error occurs, log it and return null
-    console.error('Error reading data:', error);
-    return null;
-  }
-}
-
-const data = readDataFromFile('data.json');
-if (data) {
-  console.log('Data:', data);
-} else {
-  console.log('Failed to read data from file.');
-}
-
 const sheets = google.sheets({
   version: 'v4',
   auth: new google.auth.GoogleAuth({
@@ -38,6 +17,20 @@ const drive = google.drive({
     scopes: ['https://www.googleapis.com/auth/drive'],
   }),
 });
+
+
+function readDataFromFile(filePath) {
+
+  try {
+    const data = fs.readFileSync(filePath, 'utf8');
+    const jsonData = JSON.parse(data);
+    return jsonData;
+  } catch (error) {
+    // If an error occurs, log it and return null
+    console.error('Error reading data:', error);
+    return null;
+  }
+}
 
 const addPermissionsToSheet = async (spreadsheetId) => {
   try {
@@ -142,4 +135,15 @@ const createSheetAndAddData = async () => {
   }
 };
 
+const data = readDataFromFile('data.json');
+if (data) {
+  console.log('Data:', data);
+} else {
+  console.log('Failed to read data from file.');
+}
+
+
 createSheetAndAddData();
+
+
+export default createSheetAndAddData;

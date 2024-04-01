@@ -10,7 +10,7 @@ async function login() {
   });
 
   const page = await browser.newPage();
-  await page.goto("https://www.showsonsale.com", {
+  await page.goto("https://www.showsonsale.com/login", {
     waitUntil: "networkidle2",
   });
 
@@ -20,6 +20,7 @@ async function login() {
   await page.waitForNavigation({
     waitUntil: "networkidle2",
   });
+
   console.log("LOGIN SUCCESSFUL.");
 
   console.log("GONNA TERMINATE");
@@ -30,6 +31,5 @@ async function login() {
 }
 
 login();
-
 
 export default login;

@@ -1,0 +1,37 @@
+2024/03/28-15:16:37.369 a403 Reusing MANIFEST /Users/danny/work/hiptify/showOnSale/server/tmp/Default/IndexedDB/https_www.ticketsales.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/28-15:16:37.370 a403 Recovering log #24
+2024/03/28-15:16:37.370 a403 Reusing old log /Users/danny/work/hiptify/showOnSale/server/tmp/Default/IndexedDB/https_www.ticketsales.com_0.indexeddb.leveldb/000024.log 
+2024/03/28-15:16:37.370 a403 Delete type=2 #23
+2024/03/28-15:16:37.651 f603 Level-0 table #29: started
+2024/03/28-15:16:37.690 f603 Level-0 table #29: 2045 bytes OK
+2024/03/28-15:16:37.731 f603 Delete type=0 #24
+2024/03/28-15:16:37.731 a403 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0a\x01\x03\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 824 : 1
+2024/03/28-15:16:37.731 a403 Compacting 1@0 + 1@1 files
+2024/03/28-15:16:37.752 a403 Generated table #30@0: 69 keys, 1007 bytes
+2024/03/28-15:16:37.752 a403 Compacted 1@0 + 1@1 files => 1007 bytes
+2024/03/28-15:16:37.791 a403 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/03/28-15:16:37.792 a403 Delete type=2 #29
+2024/03/28-15:16:37.794 a403 Manual compaction at level-0 from '\x00\x0a\x01\x03\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 824 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/03/28-15:16:37.795 a403 Level-0 table #32: started
+2024/03/28-15:16:37.816 a403 Level-0 table #32: 641 bytes OK
+2024/03/28-15:16:37.854 a403 Delete type=0 #28
+2024/03/28-15:16:37.854 a403 Delete type=2 #26
+2024/03/28-15:16:37.855 a403 Manual compaction at level-0 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0a\x01\x03\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 901 : 0
+2024/03/28-15:16:37.855 a403 Compacting 1@0 + 1@1 files
+2024/03/28-15:16:37.876 a403 Generated table #33@0: 53 keys, 681 bytes
+2024/03/28-15:16:37.877 a403 Compacted 1@0 + 1@1 files => 681 bytes
+2024/03/28-15:16:37.917 a403 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/03/28-15:16:37.917 a403 Delete type=2 #32
+2024/03/28-15:16:37.918 a403 Manual compaction at level-0 from '\x00\x0a\x01\x03\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 901 : 0 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/03/28-15:16:38.756 f603 Manual compaction at level-0 from '\x00\x0b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/03/28-15:16:38.776 bd03 Level-0 table #35: started
+2024/03/28-15:16:38.797 bd03 Level-0 table #35: 2282 bytes OK
+2024/03/28-15:16:38.837 bd03 Delete type=2 #30
+2024/03/28-15:16:38.837 bd03 Delete type=0 #31
+2024/03/28-15:16:38.837 a403 Manual compaction at level-0 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0c\x01\x03\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 1004 : 1
+2024/03/28-15:16:38.837 a403 Compacting 1@0 + 1@1 files
+2024/03/28-15:16:38.858 a403 Generated table #36@0: 54 keys, 692 bytes
+2024/03/28-15:16:38.858 a403 Compacted 1@0 + 1@1 files => 692 bytes
+2024/03/28-15:16:38.897 a403 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/03/28-15:16:38.898 a403 Delete type=2 #35
+2024/03/28-15:16:38.899 a403 Manual compaction at level-0 from '\x00\x0c\x01\x03\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 1004 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,3 +1,39 @@
-2024/03/25-16:04:40.154 2607 Reusing MANIFEST /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Session Storage/MANIFEST-000001
-2024/03/25-16:04:40.156 2607 Recovering log #72
-2024/03/25-16:04:40.157 2607 Reusing old log /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Session Storage/000072.log 
+2024/04/01-15:05:29.827 2d03 Reusing MANIFEST /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Session Storage/MANIFEST-000001
+2024/04/01-15:05:29.828 2d03 Recovering log #136
+2024/04/01-15:05:29.829 2d03 Reusing old log /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Session Storage/000136.log 
+2024/04/01-15:05:58.283 3103 Level-0 table #140: started
+2024/04/01-15:05:58.307 3103 Level-0 table #140: 19290 bytes OK
+2024/04/01-15:05:58.352 3103 Delete type=0 #136
+2024/04/01-15:05:58.354 3103 Compacting 4@0 + 1@1 files
+2024/04/01-15:05:58.386 3103 Generated table #141@0: 7980 keys, 195194 bytes
+2024/04/01-15:05:58.386 3103 Compacted 4@0 + 1@1 files => 195194 bytes
+2024/04/01-15:05:58.425 3103 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/04/01-15:05:58.426 3103 Delete type=2 #140
+2024/04/01-15:05:58.426 3103 Delete type=2 #137
+2024/04/01-15:05:58.426 3103 Delete type=2 #135
+2024/04/01-15:05:58.426 3103 Delete type=2 #131
+2024/04/01-15:05:58.426 3103 Delete type=2 #133
+2024/04/01-15:10:35.413 3103 Level-0 table #143: started
+2024/04/01-15:10:35.454 3103 Level-0 table #143: 23582 bytes OK
+2024/04/01-15:10:35.499 3103 Delete type=0 #139
+2024/04/01-15:14:29.071 3103 Level-0 table #145: started
+2024/04/01-15:14:29.104 3103 Level-0 table #145: 24862 bytes OK
+2024/04/01-15:14:29.166 3103 Delete type=0 #142
+2024/04/01-15:15:26.462 3103 Level-0 table #147: started
+2024/04/01-15:15:26.487 3103 Level-0 table #147: 30748 bytes OK
+2024/04/01-15:15:26.529 3103 Delete type=0 #144
+2024/04/01-15:16:23.374 3103 Level-0 table #149: started
+2024/04/01-15:16:23.406 3103 Level-0 table #149: 26617 bytes OK
+2024/04/01-15:16:23.479 3103 Delete type=0 #146
+2024/04/01-15:16:23.480 3103 Compacting 4@0 + 1@1 files
+2024/04/01-15:16:23.514 3103 Generated table #150@0: 8788 keys, 232120 bytes
+2024/04/01-15:16:23.514 3103 Compacted 4@0 + 1@1 files => 232120 bytes
+2024/04/01-15:16:23.553 3103 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/04/01-15:16:23.554 3103 Delete type=2 #149
+2024/04/01-15:16:23.554 3103 Delete type=2 #141
+2024/04/01-15:16:23.554 3103 Delete type=2 #143
+2024/04/01-15:16:23.554 3103 Delete type=2 #147
+2024/04/01-15:16:23.554 3103 Delete type=2 #145
+2024/04/01-15:18:43.774 3103 Level-0 table #152: started
+2024/04/01-15:18:43.803 3103 Level-0 table #152: 25858 bytes OK
+2024/04/01-15:18:43.861 3103 Delete type=0 #148

@@ -1,15 +1,3 @@
-2024/03/25-16:03:37.765 2a07 Reusing MANIFEST /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Session Storage/MANIFEST-000001
-2024/03/25-16:03:37.770 2a07 Recovering log #69
-2024/03/25-16:03:37.773 2a07 Reusing old log /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Session Storage/000069.log 
-2024/03/25-16:03:39.964 2a07 Level-0 table #73: started
-2024/03/25-16:03:39.990 2a07 Level-0 table #73: 20166 bytes OK
-2024/03/25-16:03:40.030 2a07 Delete type=0 #69
-2024/03/25-16:03:40.037 2a07 Compacting 4@0 + 1@1 files
-2024/03/25-16:03:40.053 2a07 Generated table #74@0: 4101 keys, 58782 bytes
-2024/03/25-16:03:40.053 2a07 Compacted 4@0 + 1@1 files => 58782 bytes
-2024/03/25-16:03:40.098 2a07 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/03/25-16:03:40.100 2a07 Delete type=2 #61
-2024/03/25-16:03:40.100 2a07 Delete type=2 #64
-2024/03/25-16:03:40.100 2a07 Delete type=2 #70
-2024/03/25-16:03:40.100 2a07 Delete type=2 #73
-2024/03/25-16:03:40.100 2a07 Delete type=2 #67
+2024/04/01-15:05:01.395 2d03 Reusing MANIFEST /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Session Storage/MANIFEST-000001
+2024/04/01-15:05:01.396 2d03 Recovering log #136
+2024/04/01-15:05:01.398 2d03 Reusing old log /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Session Storage/000136.log 

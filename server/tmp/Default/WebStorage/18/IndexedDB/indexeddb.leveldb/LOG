@@ -1,0 +1,7 @@
+2024/04/01-15:17:15.903 8803 Reusing MANIFEST /Users/danny/work/hiptify/showOnSale/server/tmp/Default/WebStorage/18/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/04/01-15:17:15.903 8803 Recovering log #3
+2024/04/01-15:17:15.904 8803 Reusing old log /Users/danny/work/hiptify/showOnSale/server/tmp/Default/WebStorage/18/IndexedDB/indexeddb.leveldb/000003.log 
+2024/04/01-15:17:18.900 ba03 Level-0 table #5: started
+2024/04/01-15:17:18.924 ba03 Level-0 table #5: 85883 bytes OK
+2024/04/01-15:17:18.965 ba03 Delete type=0 #3
+2024/04/01-15:17:18.966 8b03 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

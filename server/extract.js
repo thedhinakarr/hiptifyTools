@@ -1,7 +1,7 @@
 import puppeteer from "puppeteer";
 import { writeFile } from 'fs/promises';
 
-async function extractor() {
+export async function extractor() {
 
   const browser = await puppeteer.launch({
     headless: false,
@@ -14,11 +14,21 @@ async function extractor() {
     waitUntil: "networkidle2",
   });
 
-  await page.select('#sos-select-search-type', '4');
-  await page.select('#sos-select-search-date', '');
+  await page.type("#UserName", "watermelon1");
+  await page.type("#Password", "Pricebreak1!");
+  await page.click("#btnLogin");
+  await page.waitForNavigation({
+    waitUntil: "networkidle2",
+  });
+
+  console.log("LOGIN SUCCESSFUL.");
+
+  await page.select('#sos-select-search-type', '0');
+  await page.select('#sos-select-search-date', '7');
   await page.type('#event-name-filter', '');
   await page.select('#event-country-filter', 'United States and Canada');
   await page.click('#select-filter-submit-button');
+
 
   // Wait for the table to be visible or for a suitable selector
   await page.waitForSelector('#event-table-listing');
@@ -53,13 +63,14 @@ async function extractor() {
 
 async function linkModifier(page, data) {
   for (const obj of data) {
-    await page.goto(obj.link, { waitUntil: 'domcontentloaded' }); // Navigate to the original link
+
+    await page.goto(obj.link, { timeout: 600000 }, { waitUntil: 'domcontentloaded' }); // Navigate to the original link
     const redirectedLink = page.url(); // Get the redirected URL after navigation
     obj.link = redirectedLink; // Update the link in the object
   }
 }
 
-async function saveDataToFile(data) {
+export async function saveDataToFile(data) {
   try {
     // Filter out objects without any keys
     const nonEmptyData = data.filter(obj => Object.keys(obj).length > 1);
@@ -76,7 +87,6 @@ async function saveDataToFile(data) {
   }
 }
 
-
 (async () => {
   const tableData = await extractor();
   console.log(tableData);
@@ -84,4 +94,4 @@ async function saveDataToFile(data) {
 })();
 
 
-export default extractor;
+export default { extractor, saveDataToFile };

@@ -41,7 +41,7 @@ export async function extractor() {
     return rows.map((row) => {
       const tds = row.querySelectorAll('td.main');
       const eventData = {
-        eventTitle: tds[0]?.querySelector('.event .info a.btn-link.tippy-similar-event').innerText.trim(),
+        Artist: tds[0]?.querySelector('.event .info a.btn-link.tippy-similar-event').innerText.trim(),
         agentCodes: tds[0]?.querySelector('.event .info a.btn-link.tippy-similar-event span').innerText.trim(),
         link: `https://www.showsonsale.com/${tds[0]?.querySelector('a')?.getAttribute('href')}`,
         // dangerText: tds[0]?.querySelector('.event .info .text-danger span'),

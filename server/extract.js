@@ -14,18 +14,20 @@ export async function extractor() {
     waitUntil: "networkidle2",
   });
 
-  await page.type("#UserName", "watermelon1");
-  await page.type("#Password", "Pricebreak1!");
-  await page.click("#btnLogin");
-  await page.waitForNavigation({
-    waitUntil: "networkidle2",
-  });
+  // await page.type("#UserName", "watermelon1");
+  // await page.type("#Password", "Pricebreak1!");
+  // await page.click("#btnLogin");
+  // await page.waitForNavigation({
+  //   waitUntil: "networkidle2",
+  // });
+  // console.log("LOGIN SUCCESSFUL.");
+  // console.log("GONNA TERMINATE");
+  // await page.click('input[type="submit"].btn.btn-primary');
+  // console.log("TERMINATED")
 
-  console.log("LOGIN SUCCESSFUL.");
-
-  await page.select('#sos-select-search-type', '0');
-  await page.select('#sos-select-search-date', '7');
-  await page.type('#event-name-filter', '');
+  await page.select('#sos-select-search-type', '6');
+  await page.select('#sos-select-search-date', '0');
+  await page.type('#event-name-filter', 'Koe Wetzel, The Black Keys, Twenty One Pilots');
   await page.select('#event-country-filter', 'United States and Canada');
   await page.click('#select-filter-submit-button');
 

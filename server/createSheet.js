@@ -137,12 +137,12 @@ const addPermissionsToSheet = async (spreadsheetId) => {
 //   }
 // };
 
-const createSheetAndAddData = async () => {
+const createSheetAndAddData = async (artists) => {
   try {
     console.log("Entered.");
     const timestamp = Date.now();
     const date = new Date(timestamp);
-    const spreadsheetTitle = `${date.toLocaleDateString()}_${date.toLocaleTimeString()} showsonsale Data`;
+    const spreadsheetTitle = ` [${artists}], ${date.toLocaleDateString()}_${date.toLocaleTimeString()} showsonsale Data`;
 
     // Define the request body for creating the spreadsheet
     const requestBody = {
@@ -213,7 +213,7 @@ if (data) {
 }
 
 
-createSheetAndAddData();
+createSheetAndAddData("Koe Wetzel, The Black Keys, Twenty One Pilots");
 
 
 export default createSheetAndAddData;

@@ -28,7 +28,7 @@ export default function SOSDashboard() {
         </div>
 
         <div className=" border-blue border overflow-auto w-3/5 py-9 px-5 ">
-          <Retrieve />
+          <Extract />
         </div>
       </div>
       <Footer />

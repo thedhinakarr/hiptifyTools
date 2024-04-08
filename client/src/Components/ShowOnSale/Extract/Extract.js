@@ -49,7 +49,7 @@ export default function Extract() {
         </form>
         <div className="mb-2 font-semibold  rounded-lg text-lg items-center p-3 "> <span className="text-blue text-6xl">Result:</span></div>
         <div>
-          <span className="text-green ">Your report is ready: Check email bro, Or click the below link.<br /></span>
+          <span className="text-green ">Your report is ready: Please check your email, Or click the below link.<br /></span>
           <span className="text-green">https://google.sheets.com/falksjdhflajksdhf</span>
         </div>
 

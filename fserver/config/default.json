@@ -1,0 +1,8 @@
+{
+  "PORT": 3069,
+  "DB_URI": "mongodb+srv://thedhinakarr:Dhinakar1%40@cluster0.zdl2lue.mongodb.net/hiptify/sos?retryWrites=true&w=majority",
+  "JWT_SECRET": "sustainthis",
+  "URL": "http://127.0.0.1:5001",
+  "showOnSaleUname": "watermelon1",
+  "showOnSalePwd": "Pricebreak1!"
+}

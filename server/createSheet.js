@@ -2,7 +2,6 @@ import { google } from 'googleapis';
 import fs from 'fs';
 //API_KEY= AIzaSyAvS1LrIn-aj0aG5fraSv1ozMUYTcXCoRI
 
-
 const sheets = google.sheets({
   version: 'v4',
   auth: new google.auth.GoogleAuth({

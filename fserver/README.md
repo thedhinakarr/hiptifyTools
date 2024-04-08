@@ -1,1 +1,1 @@
-### API implementation of puppeteer script.
+### API implementation of the puppeteer script.

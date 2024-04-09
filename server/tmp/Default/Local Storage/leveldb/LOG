@@ -1,3 +1,3 @@
-2024/04/08-11:05:35.725 3c03 Reusing MANIFEST /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Local Storage/leveldb/MANIFEST-000001
-2024/04/08-11:05:35.729 3c03 Recovering log #136
-2024/04/08-11:05:35.731 3c03 Reusing old log /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Local Storage/leveldb/000136.log 
+2024/04/09-12:16:10.995 2107 Reusing MANIFEST /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Local Storage/leveldb/MANIFEST-000001
+2024/04/09-12:16:10.999 2107 Recovering log #139
+2024/04/09-12:16:11.000 2107 Reusing old log /Users/danny/work/hiptify/showOnSale/server/tmp/Default/Local Storage/leveldb/000139.log 

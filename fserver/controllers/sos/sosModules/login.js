@@ -15,6 +15,10 @@ async function login(page) {
 
 
   console.log("LOGIN SUCCESSFUL.");
+  // Asses the url to which you are redirected to after the login.
+  // If it is connection-limited page, follow the termination protocol
+  // or simply return the page.
+
   await page.waitForNavigation({
     waitUntil: "networkidle2",
   });

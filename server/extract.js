@@ -27,7 +27,7 @@ export async function extractor() {
 
   await page.select('#sos-select-search-type', '6');
   await page.select('#sos-select-search-date', '0');
-  await page.type('#event-name-filter', 'andrea bocelli, glass animals, maroon 5, missy elliott');
+  await page.type('#event-name-filter', 'Alec Benjamin, Tori Kelly');
   await page.select('#event-country-filter', 'United States and Canada');
   await page.click('#select-filter-submit-button');
 

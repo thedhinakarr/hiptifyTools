@@ -147,7 +147,7 @@ if (data) {
 }
 
 
-createSheetAndAddData("Koe Wetzel, The Black Keys, Twenty One Pilots");
+createSheetAndAddData("Alec Benjamin, Tori Kelly");
 
 
 export default createSheetAndAddData;

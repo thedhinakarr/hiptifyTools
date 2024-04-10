@@ -10,6 +10,7 @@ async function login() {
   });
 
   const page = await browser.newPage();
+
   await page.goto("https://www.showsonsale.com/login", {
     waitUntil: "networkidle2",
   });

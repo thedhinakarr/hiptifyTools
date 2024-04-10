@@ -2,7 +2,7 @@ import puppeteer from "puppeteer";
 import { writeFile, readFile } from 'fs/promises';
 import login from "./flogin.js";
 
-export async function extractor() {
+export async function extractor(artists) {
 
   const browser = await puppeteer.launch({
     headless: false,
@@ -20,7 +20,7 @@ export async function extractor() {
 
   await page.select('#sos-select-search-type', '6');
   await page.select('#sos-select-search-date', '0');
-  await page.type('#event-name-filter', 'Alec Benjamin, Tori Kelly');
+  await page.type('#event-name-filter', artists);
   await page.select('#event-country-filter', 'United States and Canada');
   await page.click('#select-filter-submit-button');
 
@@ -82,11 +82,4 @@ export async function saveDataToFile(data) {
   }
 }
 
-(async () => {
-  const tableData = await extractor();
-  console.log(tableData);
-  await saveDataToFile(tableData);
-})();
-
-
-export default { extractor, saveDataToFile };
+export default { extractor, saveDataToFile, linkModifier };

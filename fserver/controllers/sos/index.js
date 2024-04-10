@@ -1,6 +1,7 @@
 import express from "express";
 import config from "config";
-import { extractor, saveDataToFile } from "./sosModules/extract.js";
+//import { extractor, saveDataToFile, linkModifier } from "./sosModules/extract.js";
+import createSheetAndAddData from "./sosModules/createSheet.js";
 
 const router = express.Router();
 
@@ -17,7 +18,19 @@ router.post("/login", async (req, res) => {
 //extract
 router.post("/extract", async (req, res) => {
   try {
-    return res.status(200).json({ "message": "SOS Extract HIT" });
+
+    let artists = req.body.artists;
+    console.log(artists);
+    let url = await createSheetAndAddData(artists);
+    // (async () => {
+    //   const tableData = await extractor(artists);
+    //   console.log(tableData);
+    //   await saveDataToFile(tableData);
+    // })();
+    //
+    //
+
+    return res.status(200).json({ "sheetURL": url });
   } catch (err) {
     return res.status(500).json({ "message": "Internal server error" });
   }

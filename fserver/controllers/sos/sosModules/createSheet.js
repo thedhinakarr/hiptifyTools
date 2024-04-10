@@ -3,7 +3,6 @@
 // This function will return an URL of the google sheet which will be stored in the db with the sheet model which was created.
 import { google } from 'googleapis';
 import fs from 'fs';
-//API_KEY= AIzaSyAvS1LrIn-aj0aG5fraSv1ozMUYTcXCoRI
 
 //Need to move the keyfiles to the config folder.
 

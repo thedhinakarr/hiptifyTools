@@ -1,6 +1,6 @@
 import puppeteer from "puppeteer";
 import { writeFile, readFile } from 'fs/promises';
-import login from "./flogin.js";
+import login from "./login.js";
 
 export async function extractor(artists) {
 
@@ -12,7 +12,7 @@ export async function extractor(artists) {
   let page = await browser.newPage();
 
   page = await login(page);
-  // This logic is fiunctioning.
+  // This logic is functioning.
 
   await page.goto("https://www.showsonsale.com/home", {
     waitUntil: "networkidle2",
@@ -72,7 +72,7 @@ export async function saveDataToFile(data) {
 
     // Check if there's any non-empty data
     if (nonEmptyData.length > 1) {
-      await writeFile('data.json', JSON.stringify(nonEmptyData, null, 2));
+      await writeFile('sosdata.json', JSON.stringify(nonEmptyData, null, 2));
       console.log('Data saved to data.json');
     } else {
       console.log('No non-empty data to save.');

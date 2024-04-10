@@ -4,12 +4,12 @@
 import { google } from 'googleapis';
 import fs from 'fs';
 
-//Need to move the keyfiles to the config folder.
+//Need to move the keyfiles to the config folder. Done.
 
 const sheets = google.sheets({
   version: 'v4',
   auth: new google.auth.GoogleAuth({
-    keyFile: 'controllers/sos/sosModules/showsonsale-308728922ddf.json',
+    keyFile: 'config/showsonsale-308728922ddf.json',
     scopes: ['https://www.googleapis.com/auth/spreadsheets'],
   }),
 });
@@ -17,7 +17,7 @@ const sheets = google.sheets({
 const drive = google.drive({
   version: 'v3',
   auth: new google.auth.GoogleAuth({
-    keyFile: 'controllers/sos/sosModules/showsonsale-308728922ddf.json',
+    keyFile: 'config/showsonsale-308728922ddf.json',
     scopes: ['https://www.googleapis.com/auth/drive'],
   }),
 });
@@ -144,14 +144,12 @@ const createSheetAndAddData = async (artists) => {
   }
 };
 
-
-const data = readDataFromFile('controllers/sos/sosModules/data.json');
+const data = readDataFromFile('controllers/sos/data.json');
 if (data) {
   console.log('Data:', data);
 } else {
   console.log('Failed to read data from file.');
 }
-
 
 
 export default createSheetAndAddData;

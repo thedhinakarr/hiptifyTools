@@ -38,7 +38,7 @@ router.post("/extract", async (req, res) => {
 })
 
 
-//retrieve
+//retrieve sheets.
 router.post("/retrieve", async (req, res) => {
   try {
     console.log(req.body.date);

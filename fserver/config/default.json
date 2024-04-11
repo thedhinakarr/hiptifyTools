@@ -3,10 +3,15 @@
   "DB_URI": "mongodb+srv://thedhinakarr:Dhinakar1%40@cluster0.zdl2lue.mongodb.net/hiptifySOS?retryWrites=true&w=majority",
   "JWT_SECRET": "hiptifyTools",
   "URL": "http://127.0.0.1:5001",
+  "email": {
+    "dhinakarr": "codedhinakarr@gmail.com",
+    "pylan": "pylan@hiptify.co.in"
+  },
   "showsOnSale": {
-    "loginPage": "https://www.showsonsale.com/login",
-    "homePage": "https://www.showsonsale.com/home",
-    "connectionsLimitedPage": "https://www.showsonsale.com/connection-limited",
+    "loginPageURL": "https://www.showsonsale.com/login",
+    "homePageURL": "https://www.showsonsale.com/home",
+    "connectionsLimitedPageURL": "https://www.showsonsale.com/connection-limited",
+    "DATAFILEPATH": "controllers/sos/data.json",
     "userName": "watermelon1",
     "password": "Pricebreak1!"
   }

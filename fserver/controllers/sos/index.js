@@ -6,7 +6,7 @@ import config from "config";
 import gSheet from "../../models/sos/Sheet.js";
 
 //MODULES
-import { extractor, saveDataToFile, linkModifier } from "./sosModules/extract.js";
+import { extractor, saveDataToFile } from "./sosModules/extract.js";
 import createSheetAndAddData from "./sosModules/createSheet.js";
 
 const router = express.Router();

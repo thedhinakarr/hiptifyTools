@@ -1,14 +1,15 @@
 // This utility function takes in the instance of a pupeteer page, logs in to showsOnsale and returns back the page instance.
+import config from "config";
 
 async function login(page) {
 
-  await page.goto("https://www.showsonsale.com/login", {
+  await page.goto(config.get("showsOnSale.loginPageURL"), {
     waitUntil: "networkidle2",
   });
   // await page.waitForSelector("#UserName");
-  await page.type("#UserName", "watermelon1");
+  await page.type("#UserName", config.get("showsOnSale.userName"));
   //  await page.waitForSelector("#Password");
-  await page.type("#Password", "Pricebreak1!");
+  await page.type("#Password", config.get("showsOnSale.password"));
   await page.click("#btnLogin");
 
   console.log("LOGIN SUCCESSFUL.");
@@ -19,7 +20,7 @@ async function login(page) {
 
   const url = page.url();
 
-  if (url === 'https://www.showsonsale.com/connection-limited') {
+  if (url === config.get("showsOnSale.connectionsLimitedPageURL")) {
     console.log(page.url());
     console.log("GONNA TERMINATE, waiting for selector.");
     await page.waitForSelector('input[type="submit"].btn.btn-primary');

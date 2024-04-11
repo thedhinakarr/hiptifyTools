@@ -7,7 +7,6 @@ import User from "../../models/User.js";
 
 //Auth middleware:
 import { isAuthenticated } from "../../middleware/authValidation.js";
-import { errorMiddleWare } from "../../middleware/generalValidations.js";
 
 //MODULES
 import { extractor, saveDataToFile } from "./sosModules/extract.js";
@@ -47,7 +46,6 @@ router.post("/extract", isAuthenticated, async (req, res) => {
   }
 })
 
-
 //retrieve sheets.
 router.post("/retrieve", isAuthenticated, async (req, res) => {
   try {
@@ -81,7 +79,6 @@ router.post("/retrieve", isAuthenticated, async (req, res) => {
   }
 })
 
-//Need to fix the timiming issue.
-
+//Need to fix the timing issue.
 
 export default router;

@@ -3,11 +3,11 @@ import config from "config";
 import express from "express";
 import bcrypt from "bcrypt";
 
-import sosRouter from "./controllers/sos/index.js";
-
 import { registerValidations, loginValidations, errorMiddleWare } from "./middleware/generalValidations.js";
 import { generateToken } from "./middleware/authValidation.js";
-import { isAuthenticated } from "./middleware/authValidation.js";
+
+import sosRouter from "./controllers/sos/index.js";
+
 import User from "./models/User.js";
 
 const app = express();

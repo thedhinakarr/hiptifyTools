@@ -1,4 +1,4 @@
-// Create sheet function will be passed the data.json file containing the extracted data. The purpose of this module is to
+// Create function will be passed the data.json file containing the extracted data. The purpose of this module is to
 // create a google sheet and write the data to this sheet.
 // This function will return an URL of the google sheet which will be stored in the db with the sheet model which was created.
 
@@ -22,21 +22,36 @@ const drive = google.drive({
   }),
 });
 
+
 function readDataFromFile(filePath) {
+  console.log("\n======ENTERED READDATAFROMFILE FUNCTION======");
   try {
+    console.log("-> Reading filePath.");
     const data = fs.readFileSync(filePath, 'utf8');
+    console.log("-> FilePath read successfully.");
+
+    console.log("-> Parsing the data.");
     const jsonData = JSON.parse(data);
+    console.log("-> Parsing successful");
+
+    console.log("-> Returning parsed data.")
+    console.log("======EXITING READDATAFROMFILE FUNCTION======\n");
     return jsonData;
   } catch (error) {
     // If an error occurs, log it and return null
     console.error('Error reading data:', error);
+    console.log("======EXITING READDATAFROMFILE FUNCTION======\n");
     return null;
   }
 }
 
+
 const addPermissionsToSheet = async (spreadsheetId) => {
+  console.log("\n======ENTERED ADDPERMISSIONSTOSHEET FUNCTION======");
+
   try {
     // Define the request body for adding permissions for the first email address
+
     const requestBody1 = {
       emailAddress: config.get("email.dhinakarr"),
       role: 'writer',
@@ -49,38 +64,41 @@ const addPermissionsToSheet = async (spreadsheetId) => {
       requestBody: requestBody1,
     });
 
-    console.log(`Permissions added for codedhinakarr@gmail.com`);
+    console.log(`-> Granted permissions to codedhinakarr@gmail.com`);
 
-    // // Define the request body for adding permissions for the second email address
-    // const requestBody2 = {
-    //   emailAddress: config.get("email.pylan"),
-    //   role: 'writer',
-    //   type: 'user',
-    // };
+    // Define the request body for adding permissions for the second email address
+    const requestBody2 = {
+      emailAddress: config.get("email.pylan"),
+      role: 'writer',
+      type: 'user',
+    };
 
-    // // Send a request to add permissions for the second email address
-    // await drive.permissions.create({
-    //   fileId: spreadsheetId,
-    //   requestBody: requestBody2,
-    // });
+    // Send a request to add permissions for the second email address
+    await drive.permissions.create({
+      fileId: spreadsheetId,
+      requestBody: requestBody2,
+    });
 
-    // console.log(`Permissions added for pylan@hiptify.co.in`);
+    console.log(`-> Granted permissions to pylan@hiptify.co.in`);
 
-    console.log('All permissions added to the sheet.');
+    console.log('-> All permissions added to the sheet.');
+    console.log("======EXITING ADDPERMISSIONSTOSHEET FUNCTION======\n");
   } catch (error) {
-    console.error('Error adding permissions:', error);
+    console.error('-> Error adding permissions:', error);
+    console.log("======EXITING ADDPERMISSIONSTOSHEET FUNCTION======\n");
   }
 };
 
+
 const createSheetAndAddData = async (artists) => {
   try {
-    console.log("Entered CreateSheetAndAddData function.");
+    console.log("\n======ENTERED CREATESHEETANDADDDATA FUNCTION.======");
 
     const data = await readDataFromFile(config.get("showsOnSale.DATAFILEPATH"));
     if (data) {
-      console.log('Data:', data);
+      console.log('-> Data:\n', data);
     } else {
-      console.log('Failed to read data from file.');
+      console.log('-> Failed to read data from file.');
     }
 
     const timestamp = Date.now();
@@ -112,7 +130,7 @@ const createSheetAndAddData = async (artists) => {
 
     const sheetUrl = response.data.spreadsheetUrl;
 
-    console.log('Sheet created:', response.data.spreadsheetUrl);
+    console.log('-> Sheet created:', response.data.spreadsheetUrl);
 
     // Extract column headers from the first data object
     const headers = Object.keys(data[0]);
@@ -142,8 +160,9 @@ const createSheetAndAddData = async (artists) => {
       },
     });
 
-    console.log('Data added to the sheet:', appendResponse.data);
+    console.log('-> Data added to the sheet:', appendResponse.data);
     await addPermissionsToSheet(appendResponse.data.spreadsheetId);
+    console.log("======EXITING CREATESHEETANDADDDATA FUNCTION======\n");
     return sheetUrl;
   } catch (error) {
     console.error('Error creating sheet and adding data:', error);

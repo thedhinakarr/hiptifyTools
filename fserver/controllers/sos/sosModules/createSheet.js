@@ -1,15 +1,15 @@
 // Create sheet function will be passed the data.json file containing the extracted data. The purpose of this module is to
 // create a google sheet and write the data to this sheet.
 // This function will return an URL of the google sheet which will be stored in the db with the sheet model which was created.
+
 import { google } from 'googleapis';
 import fs from 'fs';
-
-//Need to move the keyfiles to the config folder. Done.
+import config from 'config';
 
 const sheets = google.sheets({
   version: 'v4',
   auth: new google.auth.GoogleAuth({
-    keyFile: 'config/showsonsale-308728922ddf.json',
+    keyFile: 'config/google/showsonsale-308728922ddf.json',
     scopes: ['https://www.googleapis.com/auth/spreadsheets'],
   }),
 });
@@ -17,7 +17,7 @@ const sheets = google.sheets({
 const drive = google.drive({
   version: 'v3',
   auth: new google.auth.GoogleAuth({
-    keyFile: 'config/showsonsale-308728922ddf.json',
+    keyFile: 'config/google/showsonsale-308728922ddf.json',
     scopes: ['https://www.googleapis.com/auth/drive'],
   }),
 });
@@ -38,7 +38,7 @@ const addPermissionsToSheet = async (spreadsheetId) => {
   try {
     // Define the request body for adding permissions for the first email address
     const requestBody1 = {
-      emailAddress: `codedhinakarr@gmail.com`,
+      emailAddress: config.get("email.dhinakarr"),
       role: 'writer',
       type: 'user',
     };
@@ -53,7 +53,7 @@ const addPermissionsToSheet = async (spreadsheetId) => {
 
     // // Define the request body for adding permissions for the second email address
     // const requestBody2 = {
-    //   emailAddress: `pylan@hiptify.co.in`,
+    //   emailAddress: config.get("email.pylan"),
     //   role: 'writer',
     //   type: 'user',
     // };
@@ -76,7 +76,7 @@ const createSheetAndAddData = async (artists) => {
   try {
     console.log("Entered CreateSheetAndAddData function.");
 
-    const data = await readDataFromFile('controllers/sos/data.json');
+    const data = await readDataFromFile(config.get("showsOnSale.DATAFILEPATH"));
     if (data) {
       console.log('Data:', data);
     } else {

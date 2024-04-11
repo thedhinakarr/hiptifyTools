@@ -1,8 +1,11 @@
 import puppeteer from "puppeteer";
 import { writeFile } from 'fs/promises';
+import config from "config";
+
 import login from "./login.js";
 
 export async function extractor(artists) {
+  console.log("Entered Extractor");
 
   const browser = await puppeteer.launch({
     headless: true,
@@ -13,7 +16,7 @@ export async function extractor(artists) {
 
   page = await login(page);
 
-  await page.goto("https://www.showsonsale.com/home", {
+  await page.goto(config.get("showsOnSale.homePageURL"), {
     waitUntil: "networkidle2",
   });
 
@@ -52,7 +55,7 @@ export async function extractor(artists) {
   await linkModifier(page, tableData);
 
 
-  await page.goto("https://www.showsonsale.com/home", {
+  await page.goto(config.get("showsOnSale.homePageURL"), {
     waitUntil: "networkidle2",
   });
 
@@ -69,6 +72,7 @@ export async function extractor(artists) {
 }
 
 export async function linkModifier(page, data) {
+  console.log("Entered Link modifier.")
   for (const obj of data) {
 
     await page.goto(obj.link, { timeout: 600000 }, { waitUntil: 'domcontentloaded' }); // Navigate to the original link
@@ -86,7 +90,7 @@ export async function saveDataToFile(data) {
 
     // Check if there's any non-empty data
     if (nonEmptyData.length > 1) {
-      await writeFile('controllers/sos/data.json', JSON.stringify(nonEmptyData, null, 2));
+      await writeFile(config.get("showsOnSale.DATAFILEPATH"), JSON.stringify(nonEmptyData, null, 2));
       console.log('Data saved to data.json');
     } else {
       console.log('No non-empty data to save.');

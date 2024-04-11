@@ -3,6 +3,11 @@ import express from "express";
 
 //DB MODELS
 import gSheet from "../../models/sos/Sheet.js";
+import User from "../../models/User.js";
+
+//Auth middleware:
+import { isAuthenticated } from "../../middleware/authValidation.js";
+import { errorMiddleWare } from "../../middleware/generalValidations.js";
 
 //MODULES
 import { extractor, saveDataToFile } from "./sosModules/extract.js";
@@ -11,7 +16,7 @@ import createSheetAndAddData from "./sosModules/createSheet.js";
 const router = express.Router();
 
 //extract
-router.post("/extract", async (req, res) => {
+router.post("/extract", isAuthenticated, async (req, res) => {
   try {
     // Get the artists from the request's body.
     let artists = req.body.artists;
@@ -24,10 +29,15 @@ router.post("/extract", async (req, res) => {
 
     // Google Sheet Creation.
     let url = await createSheetAndAddData(artists);
+
+    let foundUser = await User.findOne({ _id: req.payload.id })
     //Saving the sheet to DB for retrieval.
+    console.log(foundUser)
     let sheet = new gSheet({
       sheetURL: url,
+      createdBy: foundUser._id,
     });
+
     console.log(sheet);
     await sheet.save();
 
@@ -39,7 +49,7 @@ router.post("/extract", async (req, res) => {
 
 
 //retrieve sheets.
-router.post("/retrieve", async (req, res) => {
+router.post("/retrieve", isAuthenticated, async (req, res) => {
   try {
     console.log(req.body.date);
     let desiredDate = new Date(req.body.date);

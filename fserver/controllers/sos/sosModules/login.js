@@ -18,6 +18,7 @@ async function login(page) {
     waitUntil: "networkidle2",
   });
 
+  //VERIFICATION
   const url = page.url();
 
   if (url === config.get("showsOnSale.connectionsLimitedPageURL")) {

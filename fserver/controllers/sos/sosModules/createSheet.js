@@ -1,6 +1,6 @@
 // Create function will be passed the data.json file containing the extracted data. The purpose of this module is to
 // create a google sheet and write the data to this sheet.
-// This function will return an URL of the google sheet which will be stored in the db with the sheet model which was created.
+// This module will return an URL of the google sheet which will be stored in the db with the sheet model which was created.
 
 import { google } from 'googleapis';
 import fs from 'fs';
@@ -22,7 +22,18 @@ const drive = google.drive({
   }),
 });
 
+/*
+    ReadDataFromFile Function
 
+    Parameters:
+        1. File Path of data.json
+
+    Description:
+        1. The function takes in the file path and parses the data to perform operations.
+
+    Return value:
+        1. Returns parsed data.
+*/
 function readDataFromFile(filePath) {
   console.log("\n======ENTERED READDATAFROMFILE FUNCTION======");
   try {
@@ -45,13 +56,24 @@ function readDataFromFile(filePath) {
   }
 }
 
+/*
+    addPermissionsToSheet Function
 
+    Parameters:
+        1. spreadSheetID of the google sheet.
+
+    Description:
+        1. The function takes in the spreadSheetID and adds permission to edit this sheet by using their
+            email addresses.
+
+    Return value:
+        Does not return anything.
+*/
 const addPermissionsToSheet = async (spreadsheetId) => {
   console.log("\n======ENTERED ADDPERMISSIONSTOSHEET FUNCTION======");
 
   try {
     // Define the request body for adding permissions for the first email address
-
     const requestBody1 = {
       emailAddress: config.get("email.dhinakarr"),
       role: 'writer',
@@ -90,6 +112,20 @@ const addPermissionsToSheet = async (spreadsheetId) => {
 };
 
 
+/*
+    CreateSheetAndAddData Function
+
+    Parameters:
+        1. artists String
+
+    Description:
+        1. The function takes in the artists string in order to add to the title of the sheet.
+        2. calls the readDataFromFile function.
+        3. Calls the addPermissionsToSheet function to add permissions after writing to a google sheet.
+
+    Return value:
+        Returns the SpreadSheetURL to access the google sheet.
+*/
 const createSheetAndAddData = async (artists) => {
   try {
     console.log("\n======ENTERED CREATESHEETANDADDDATA FUNCTION.======");

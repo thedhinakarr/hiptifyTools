@@ -5,7 +5,7 @@ import login from "./login.js";
 export async function extractor(artists) {
 
   const browser = await puppeteer.launch({
-    headless: false,
+    headless: true,
     defaultViewport: false
   });
 

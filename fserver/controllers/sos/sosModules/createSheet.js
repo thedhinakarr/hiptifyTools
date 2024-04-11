@@ -22,6 +22,7 @@ const drive = google.drive({
   }),
 });
 
+
 /*
     ReadDataFromFile Function
 
@@ -55,6 +56,7 @@ function readDataFromFile(filePath) {
     return null;
   }
 }
+
 
 /*
     addPermissionsToSheet Function

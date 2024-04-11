@@ -6,6 +6,7 @@ import config from "config";
 //Modules
 import login from "./login.js";
 
+
 /*
     Extractor Function
 
@@ -103,6 +104,7 @@ export async function extractor(artists) {
 
 }
 
+
 /*
     LinkModifier Function
 
@@ -130,6 +132,7 @@ export async function linkModifier(page, data) {
   console.log("-> Link modification successful.");
   console.log("======EXITING LINKMODIFIER FUNCTION======\n");
 }
+
 
 /*
     saveDataToFile Function
@@ -167,5 +170,6 @@ export async function saveDataToFile(data) {
   }
   console.log("======EXITING SAVEDATATOFILE FUNCTION======\n");
 }
+
 
 export default { extractor, saveDataToFile, linkModifier };

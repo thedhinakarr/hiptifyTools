@@ -3,6 +3,20 @@
 //npm library:
 import config from "config";
 
+/*
+    Login Function
+
+    Parameters:
+        1. pupeteer page instance.
+
+    Description:
+        1. The function takes in a pupeteer page instance and logis in to the
+           showsOnSale loginpage.
+
+    Return value:
+        1. Pupeteer Page instance.
+*/
+
 async function login(page) {
 
   console.log("\n======ENTERED LOGIN FUNCTION======");

@@ -1,5 +1,5 @@
 import puppeteer from "puppeteer";
-import { writeFile, readFile } from 'fs/promises';
+import { writeFile } from 'fs/promises';
 import login from "./login.js";
 
 export async function extractor(artists) {
@@ -12,7 +12,6 @@ export async function extractor(artists) {
   let page = await browser.newPage();
 
   page = await login(page);
-  // This logic is functioning.
 
   await page.goto("https://www.showsonsale.com/home", {
     waitUntil: "networkidle2",
@@ -51,28 +50,43 @@ export async function extractor(artists) {
   });
 
   await linkModifier(page, tableData);
+
+
+  await page.goto("https://www.showsonsale.com/home", {
+    waitUntil: "networkidle2",
+  });
+
+  //Logout Logic
+  await page.waitForSelector("#menu > div.navbar-right > ul > li > a > span");
+  await page.click("#menu > div.navbar-right > ul > li > a > span");
+  await page.waitForSelector("#menu > div.navbar-right > ul > li > ul > li:nth-child(7) > a");
+  await page.click("#menu > div.navbar-right > ul > li > ul > li:nth-child(7) > a");
+
   browser.close();
+
   return tableData;
 
 }
 
-async function linkModifier(page, data) {
+export async function linkModifier(page, data) {
   for (const obj of data) {
 
     await page.goto(obj.link, { timeout: 600000 }, { waitUntil: 'domcontentloaded' }); // Navigate to the original link
     const redirectedLink = page.url(); // Get the redirected URL after navigation
     obj.link = redirectedLink; // Update the link in the object
   }
+
 }
 
 export async function saveDataToFile(data) {
   try {
+    console.log("Entered Save DATA Function.");
     // Filter out objects without any keys
     const nonEmptyData = data.filter(obj => Object.keys(obj).length > 1);
 
     // Check if there's any non-empty data
     if (nonEmptyData.length > 1) {
-      await writeFile('sosdata.json', JSON.stringify(nonEmptyData, null, 2));
+      await writeFile('controllers/sos/data.json', JSON.stringify(nonEmptyData, null, 2));
       console.log('Data saved to data.json');
     } else {
       console.log('No non-empty data to save.');

@@ -6,7 +6,7 @@ import config from "config";
 import gSheet from "../../models/sos/Sheet.js";
 
 //MODULES
-//import { extractor, saveDataToFile, linkModifier } from "./sosModules/extract.js";
+import { extractor, saveDataToFile, linkModifier } from "./sosModules/extract.js";
 import createSheetAndAddData from "./sosModules/createSheet.js";
 
 const router = express.Router();
@@ -14,21 +14,22 @@ const router = express.Router();
 //extract
 router.post("/extract", async (req, res) => {
   try {
-
+    // Get the artists from the request's body.
     let artists = req.body.artists;
     console.log(artists);
-    // (async () => {
-    //   const tableData = await extractor(artists);
-    //   console.log(tableData);
-    //   await saveDataToFile(tableData);
-    // })();
-    let url = await createSheetAndAddData(artists);
 
+    //Extraction of data by scraping
+    const tableData = await extractor(artists);
+    console.log(tableData); //Extracted data.
+    await saveDataToFile(tableData);
+
+    // Google Sheet Creation.
+    let url = await createSheetAndAddData(artists);
+    //Saving the sheet to DB for retrieval.
     let sheet = new gSheet({
       sheetURL: url,
     });
     console.log(sheet);
-
     await sheet.save();
 
     return res.status(200).json({ sheet });

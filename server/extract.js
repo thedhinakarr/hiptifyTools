@@ -58,6 +58,7 @@ export async function extractor() {
   });
 
   await linkModifier(page, tableData);
+
   browser.close();
   return tableData;
 
@@ -65,11 +66,11 @@ export async function extractor() {
 
 async function linkModifier(page, data) {
   for (const obj of data) {
-
     await page.goto(obj.link, { timeout: 600000 }, { waitUntil: 'domcontentloaded' }); // Navigate to the original link
     const redirectedLink = page.url(); // Get the redirected URL after navigation
     obj.link = redirectedLink; // Update the link in the object
   }
+  return page;
 }
 
 export async function saveDataToFile(data) {

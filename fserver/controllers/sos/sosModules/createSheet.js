@@ -22,9 +22,7 @@ const drive = google.drive({
   }),
 });
 
-
 function readDataFromFile(filePath) {
-
   try {
     const data = fs.readFileSync(filePath, 'utf8');
     const jsonData = JSON.parse(data);
@@ -53,20 +51,20 @@ const addPermissionsToSheet = async (spreadsheetId) => {
 
     console.log(`Permissions added for codedhinakarr@gmail.com`);
 
-    // // Define the request body for adding permissions for the second email address
-    // const requestBody2 = {
-    //   emailAddress: `pylan@hiptify.co.in`,
-    //   role: 'writer',
-    //   type: 'user',
-    // };
+    // Define the request body for adding permissions for the second email address
+    const requestBody2 = {
+      emailAddress: `pylan@hiptify.co.in`,
+      role: 'writer',
+      type: 'user',
+    };
 
-    // // Send a request to add permissions for the second email address
-    // await drive.permissions.create({
-    //   fileId: spreadsheetId,
-    //   requestBody: requestBody2,
-    // });
+    // Send a request to add permissions for the second email address
+    await drive.permissions.create({
+      fileId: spreadsheetId,
+      requestBody: requestBody2,
+    });
 
-    // console.log(`Permissions added for pylan@hiptify.co.in`);
+    console.log(`Permissions added for pylan@hiptify.co.in`);
 
     console.log('All permissions added to the sheet.');
   } catch (error) {
@@ -77,6 +75,14 @@ const addPermissionsToSheet = async (spreadsheetId) => {
 const createSheetAndAddData = async (artists) => {
   try {
     console.log("Entered CreateSheetAndAddData function.");
+
+    const data = await readDataFromFile('controllers/sos/data.json');
+    if (data) {
+      console.log('Data:', data);
+    } else {
+      console.log('Failed to read data from file.');
+    }
+
     const timestamp = Date.now();
     const date = new Date(timestamp);
     const spreadsheetTitle = ` [${artists}], ${date.toLocaleDateString()}_${date.toLocaleTimeString()} showsonsale Data`;
@@ -143,13 +149,5 @@ const createSheetAndAddData = async (artists) => {
     console.error('Error creating sheet and adding data:', error);
   }
 };
-
-const data = readDataFromFile('controllers/sos/data.json');
-if (data) {
-  console.log('Data:', data);
-} else {
-  console.log('Failed to read data from file.');
-}
-
 
 export default createSheetAndAddData;

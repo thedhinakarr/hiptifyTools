@@ -1,9 +1,12 @@
 {
   "PORT": 3069,
   "DB_URI": "mongodb+srv://thedhinakarr:Dhinakar1%40@cluster0.zdl2lue.mongodb.net/hiptifySOS?retryWrites=true&w=majority",
-  "JWT_SECRET": "sustainthis",
+  "JWT_SECRET": "hiptifyTools",
   "URL": "http://127.0.0.1:5001",
   "showsOnSale": {
+    "loginPage": "https://www.showsonsale.com/login",
+    "homePage": "https://www.showsonsale.com/home",
+    "connectionsLimitedPage": "https://www.showsonsale.com/connection-limited",
     "userName": "watermelon1",
     "password": "Pricebreak1!"
   }

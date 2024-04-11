@@ -16,6 +16,8 @@ app.get("/", (req, res) => {
   res.send("Server is up");
 })
 
+//Need to Right Login/authentication logic here.
+
 app.listen(port, () => {
   console.log("Listening on port", port);
 })

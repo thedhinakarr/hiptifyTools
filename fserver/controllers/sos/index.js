@@ -1,6 +1,5 @@
 //NPM libraries
 import express from "express";
-import config from "config";
 
 //DB MODELS
 import gSheet from "../../models/sos/Sheet.js";

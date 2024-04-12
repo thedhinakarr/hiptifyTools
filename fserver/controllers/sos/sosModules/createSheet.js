@@ -134,7 +134,7 @@ const createSheetAndAddData = async (artists) => {
 
     const data = await readDataFromFile(config.get("showsOnSale.DATAFILEPATH"));
     if (data) {
-      console.log('-> Data:\n', data);
+      console.log('-> Data read from /controllers/sos/data.json successful.');
     } else {
       console.log('-> Failed to read data from file.');
     }
@@ -168,7 +168,7 @@ const createSheetAndAddData = async (artists) => {
 
     const sheetUrl = response.data.spreadsheetUrl;
 
-    console.log('-> Sheet created:', response.data.spreadsheetUrl);
+    console.log('-> Sheet created, URL:\n', response.data.spreadsheetUrl);
 
     // Extract column headers from the first data object
     const headers = Object.keys(data[0]);
@@ -198,7 +198,7 @@ const createSheetAndAddData = async (artists) => {
       },
     });
 
-    console.log('-> Data added to the sheet:', appendResponse.data);
+    console.log('-> Data added to the sheet:\n', appendResponse.data);
     await addPermissionsToSheet(appendResponse.data.spreadsheetId);
     console.log("======EXITING CREATESHEETANDADDDATA FUNCTION======\n");
     return sheetUrl;

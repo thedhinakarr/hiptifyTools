@@ -16,12 +16,14 @@ const port = config.get("PORT");
 app.use(express.json());
 
 app.get("/", (req, res) => {
+  console.log("\n######### /api/sos ROUTE HIT #########\n");
   res.send("Server is up");
 });
 
 
 //Need to Right Login/authentication logic here.
 app.post("/register", registerValidations(), errorMiddleWare, async (req, res) => {
+  console.log("\n######### /api/register ROUTE HIT #########");
   try {
     let { name, email, password } = req.body;
     //Object deconstruction
@@ -53,6 +55,7 @@ app.post("/register", registerValidations(), errorMiddleWare, async (req, res) =
 });
 
 app.post("/login", loginValidations(), errorMiddleWare, async (req, res) => {
+  console.log("\n######### /api/login ROUTE HIT #########\n");
   try {
     let { email, password } = req.body;
 

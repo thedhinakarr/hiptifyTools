@@ -16,6 +16,7 @@ const router = express.Router();
 
 //extract
 router.post("/extract", isAuthenticated, async (req, res) => {
+  console.log("\n######### /api/sos/extract ROUTE HIT #########\n");
   try {
     // Get the artists from the request's body.
     let artists = req.body.artists;
@@ -23,7 +24,6 @@ router.post("/extract", isAuthenticated, async (req, res) => {
 
     //Extraction of data by scraping
     const tableData = await extractor(artists);
-    console.log(tableData); //Extracted data.
     await saveDataToFile(tableData);
 
     // Google Sheet Creation.
@@ -48,6 +48,7 @@ router.post("/extract", isAuthenticated, async (req, res) => {
 
 //retrieve sheets.
 router.post("/retrieve", isAuthenticated, async (req, res) => {
+  console.log("\n######### /api/sos/retrieve ROUTE HIT #########\n");
   try {
     console.log(req.body.date);
     let desiredDate = new Date(req.body.date);
@@ -72,13 +73,12 @@ router.post("/retrieve", isAuthenticated, async (req, res) => {
       }
     });
 
-    console.log(documents);
+    console.log("Retrieved docs:\n", documents);
     return res.status(200).json(documents);
   } catch (err) {
     return res.status(500).json({ "message": "Internal server error" });
   }
 })
 
-//Need to fix the timing issue.
 
 export default router;

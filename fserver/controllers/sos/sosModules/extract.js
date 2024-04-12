@@ -6,7 +6,6 @@ import config from "config";
 //Modules
 import login from "./login.js";
 
-
 /*
     Extractor Function
 
@@ -21,6 +20,7 @@ import login from "./login.js";
     Return value:
         1. TableData
 */
+
 export async function extractor(artists) {
   console.log("\n======ENTERED EXTRACTION FUNCTION======");
   console.log("-> Launching a new pupeteer browser session. ");

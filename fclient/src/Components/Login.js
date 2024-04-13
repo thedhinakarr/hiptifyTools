@@ -1,18 +1,14 @@
 import React from 'react'
 import { useState } from 'react'
 import Header from './Header'
-// import axios from 'axios'
-// import { useNavigate, link } from 'react-router-dom'
+import axios from 'axios'
+import { useNavigate, link } from 'react-router-dom'
 import Footer from './Footer'
-
-
 
 
 export default function Login() {
 
-  // const notify = () => toast("Login successful!");
-
-  // let navigate = useNavigate();
+  let navigate = useNavigate();
   const [userData, setUserData] = useState({
     email: "",
     password: "",
@@ -29,11 +25,11 @@ export default function Login() {
   async function OnSubmitHandler(e) {
     try {
       e.preventDefault();
-      // let { data } = await axios.post("/api/user/login", userData);
-      // localStorage.setItem("token", JSON.stringify(data.token));
-      // console.log(localStorage.getItem("token"))
-      // alert("LOGIN Successfull");
-      // navigate("/consumerDashBoard");
+      let { data } = await axios.post("/api/login", userData);
+      localStorage.setItem("token", JSON.stringify(data.token));
+      console.log(localStorage.getItem("token"))
+      alert("LOGIN Successfull");
+      navigate("/dashBoard");
     } catch (error) {
       alert(error.response.data.error);
       console.log(error)
@@ -46,11 +42,6 @@ export default function Login() {
 
       <section className="bg-white">
         <div className=" border-t border-blue flex flex-col items-center pt-10 justify-top mx-auto md:h-screen lg:py-0">
-          <a href='//'
-            className="flex items-center mb-6 text-4xl font-semibold text-blue"
-          >
-
-          </a>
           <div className="w-full bg-white rounded-lg shadow border-4 md:mt-0 sm:max-w-md xl:p-0 border-yellow">
             <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
               <h1 className="text-xl font-bold leading-tight tracking-tight text-blue md:text-2xl">

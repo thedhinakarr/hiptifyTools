@@ -1,17 +1,52 @@
 import React, { useState } from 'react';
+import axios from 'axios';
+import { useNavigate, useParams } from 'react-router-dom';
 
 export default function Retrieve() {
-  const [selectedDate, setSelectedDate] = useState('');
+  let navigate = useNavigate();
+  const [date, setSelectedDate] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [report, setReport] = useState([]);
+  const [showReport, setShowReport] = useState(false);
+
   const handleDateChange = (event) => {
     setSelectedDate(event.target.value);
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
+    setLoading(true);
+    let token = localStorage.getItem("token");
+
+    if (token) {
+      token = JSON.parse(token);
+    }
+
+    else {
+      navigate("/")
+    }
+
+    const config = {
+      headers: {
+        "auth-token": token
+      }
+    };
+
     // Process form submission here, e.g., send data to server
-    console.log('Submitted:', { selectedDate });
-    // Reset form fields
-    setSelectedDate('');
+    console.log({ date });
+
+    const requestBody = {
+      date
+    };
+
+    let data = await axios.post(`/api/sos/retrieve`, requestBody, config);
+
+    console.log(data.data);
+    const urls = data.data.reverse().map(ele => { return [ele.sheetURL, ele.createdAt] });
+    setReport(urls);
+    console.log(report);
+    setShowReport(true);
+    setLoading(false);
   };
   return (
     <div className=" overflow-auto py-9 px-5 " >
@@ -23,23 +58,55 @@ export default function Retrieve() {
             <input
               type="date"
               id="date"
-              className="p-1 form-input mt-1 block w-full border border-black rounded"
-              value={selectedDate}
+              className="p-1 form-input mt-1 block w-full border text-black border-black rounded"
+              value={date}
               onChange={handleDateChange}
               required
+              disabled={loading}
             />
           </div>
           <div className="text-center">
-            <button type="submit" className="bg-blue text-white px-4 py-2 rounded hover:bg-dblue">Submit</button>
+            <button disabled={loading} type="submit" className="bg-blue text-white px-4 py-2 rounded hover:bg-dblue">Submit</button>
           </div>
         </form>
         <div className="mb-2 font-semibold  rounded-lg text-lg items-center p-3 "> <span className="text-blue text-6xl">Result:</span></div>
-        <div>
-          <span className="text-green ">Here's the sheet link for the mentioned date: <br /></span>
-          <span className="text-green">https://google.sheets.com/falksjdhflajksdhf</span>
-        </div>
+        {loading ? (
+          <div className="text-center font-extrabold text-2xl text-gray">
+            <p>Fetching...</p>
+          </div>
+        ) : (
+          <div>
+            {showReport && (
+              <div>
+                <span className="text-center font-extrabold text-2xl text-green">
+                  {report.length} Sheets generated on {date}:<br />
+                  <span className='text-purple'>&nbsp;Time&nbsp; -&gt;</span>&nbsp;&nbsp;
+                  <span className='text-linkBlue'>Link</span>
+                </span>
+                <ul>
+                  {report.map((link, index) => {
+                    let formattedTime = 'Invalid Date';
+                    {
+                      const dateObj = new Date(link[1]);
+                      const hours = dateObj.getHours();
+                      const minutes = dateObj.getMinutes();
+                      const seconds = dateObj.getSeconds();
+                      formattedTime = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                    }
 
+                    return (
+                      <li key={index}>
+                        <span className='p-2 font-semibold text-purple'>{formattedTime} -></span>
+                        <button onClick={() => window.open(link[0], '_blank')} className='p-2 font-semibold text-linkBlue hover:underline'>{link[0]} </button>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            )}
+          </div>
+        )}
       </div>
-    </div >
+    </div>
   );
 }

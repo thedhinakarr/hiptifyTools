@@ -27,6 +27,8 @@ export default function Login() {
       e.preventDefault();
       let { data } = await axios.post("/api/login", userData);
       localStorage.setItem("token", JSON.stringify(data.token));
+      localStorage.setItem("loginTimestamp", (Date.now()));
+      console.log(localStorage.getItem("loginTimestamp"));
       console.log(localStorage.getItem("token"))
       alert("LOGIN Successfull");
       navigate("/dashBoard");
@@ -41,9 +43,14 @@ export default function Login() {
       <Header />
 
       <section className="bg-white">
-        <div className=" border-t border-blue flex flex-col items-center pt-10 justify-top mx-auto md:h-screen lg:py-0">
-          <div className="w-full bg-white rounded-lg shadow border-4 md:mt-0 sm:max-w-md xl:p-0 border-yellow">
+        <div className=" border-t border-blue flex flex-col items-center pt-10 justify-top mb-9  mx-auto md:h-screen lg:py-0">
+
+          <br />
+
+          <div className=" m-10 w-full bg-white rounded-lg shadow border-4 md:mt-0 sm:max-w-md xl:p-0 border-yellow">
+
             <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
+
               <h1 className="text-xl font-bold leading-tight tracking-tight text-blue md:text-2xl">
                 Login
               </h1>
@@ -99,9 +106,9 @@ export default function Login() {
             </div>
           </div>
         </div>
-      </section>
+      </section >
 
       <Footer />
-    </div>
+    </div >
   )
 }

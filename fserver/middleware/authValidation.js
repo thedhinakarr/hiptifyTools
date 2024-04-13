@@ -16,11 +16,13 @@ const generateToken = (payload) => {
 //Everytime a request is hits an API endpoint on the server, this fuction is invoked,
 //which checks the authenticity of the the client trying to make the request.
 const isAuthenticated = (req, res, next) => {
+  console.log("\n====== Auth-Check ======");
   try {
     let token = req.headers["auth-token"];
     let payload = jwt.verify(token, config.get("JWT_SECRET"));
     console.log(payload);
     req.payload = payload;
+    console.log("=====================");
     return next();
   } catch (error) {
     console.error(error);

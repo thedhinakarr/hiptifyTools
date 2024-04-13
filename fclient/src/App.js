@@ -10,11 +10,11 @@ function App() {
 
     <Routes>
       <Route path="/" element={<LandingPage />} />
-      <Route path= "/login" element= {<Login/>}/>
+      <Route path="/login" element={<Login />} />
 
       <Route element={<PrivateRoute />}>
-        <Route path= "/dashboard" element= {<Dashboard/>}/>
-        <Route path= "/sosDashboard" element= {<SOSDashboard/>}/>
+        <Route path="/dashBoard" element={<Dashboard />} />
+        <Route path="/sosDashboard" element={<SOSDashboard />} />
       </Route>
 
     </Routes>

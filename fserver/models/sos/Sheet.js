@@ -1,6 +1,9 @@
 import mongoose from "mongoose";
 
 let sheetSchema = new mongoose.Schema({
+  artists: {
+    type: String
+  },
   sheetURL: {
     type: String,
     required: true

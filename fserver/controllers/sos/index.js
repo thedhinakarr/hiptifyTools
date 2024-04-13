@@ -20,7 +20,7 @@ router.post("/extract", isAuthenticated, async (req, res) => {
   try {
     // Get the artists from the request's body.
     let artists = req.body.artists;
-    console.log(artists);
+    console.log("-> Extracting data of: ", artists);
 
     //Extraction of data by scraping
     const tableData = await extractor(artists);
@@ -31,14 +31,24 @@ router.post("/extract", isAuthenticated, async (req, res) => {
 
     let foundUser = await User.findOne({ _id: req.payload.id })
     //Saving the sheet to DB for retrieval.
-    console.log(foundUser)
+
+    console.log("=============================================");
+    console.log("-> Extraction initiated by user: ");
+    console.log(foundUser);
+    console.log("=============================================");
     let sheet = new gSheet({
+      artists,
       sheetURL: url,
       createdBy: foundUser._id,
     });
-
+    console.log("=============================================");
+    console.log("-> Sheet Document to be stored in DB:");
     console.log(sheet);
     await sheet.save();
+    console.log("-> Document saved to DB")
+    console.log("=============================================\n");
+
+    console.log("*****************************************************");
 
     return res.status(200).json({ sheet });
   } catch (err) {
@@ -50,7 +60,7 @@ router.post("/extract", isAuthenticated, async (req, res) => {
 router.post("/retrieve", isAuthenticated, async (req, res) => {
   console.log("\n######### /api/sos/retrieve ROUTE HIT #########\n");
   try {
-    console.log(req.body.date);
+    console.log("Date to retrieve docs for: ", req.body.date);
     let desiredDate = new Date(req.body.date);
 
     // Calculate the start and end of the day for the desiredDate

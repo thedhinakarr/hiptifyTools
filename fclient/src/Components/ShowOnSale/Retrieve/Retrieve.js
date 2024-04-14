@@ -97,7 +97,7 @@ export default function Retrieve() {
                     return (
                       <li key={index}>
                         <span className='p-2 font-semibold text-purple'>{formattedTime} -></span>
-                        <button onClick={() => window.open(link[0], '_blank')} className='p-2 font-semibold text-linkBlue hover:underline'>{link[0]} </button>
+                        <button onClick={() => window.open(link[0], '_blank')} className=' text-left p-2 font-semibold text-linkBlue hover:underline'>{link[0]} </button>
                       </li>
                     );
                   })}

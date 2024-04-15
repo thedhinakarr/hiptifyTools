@@ -23,6 +23,7 @@ import login from "./login.js";
 
 export async function extractor(artists) {
   console.log("\n======ENTERED EXTRACTION FUNCTION======");
+  console.log("Artists to search for: ", artists);
   console.log("-> Launching a new pupeteer browser session. ");
   const browser = await puppeteer.launch({
     headless: true,

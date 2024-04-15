@@ -1,112 +1,162 @@
 [
   {
-    "Artist": "A Conversation With Dillon Francis (OTHER)",
-    "agentCodes": "(OTHER)",
-    "link": "https://www.universe.com/events/a-conversation-with-dillon-francis-tickets-57VZFQ?ref=ticketmaster&irgwc=1&clickid=zLjURzXgrxyPWbNVSDRSWzwsUkHRaP21qzKiTU0&camefrom=CFC_BUYAT_1234554&impradid=1234554&REFERRAL_ID=tmfeedbuyat1234554&wt.mc_id=aff_BUYAT_1234554&utm_source=1234554-Songkick&impradname=Songkick&utm_medium=affiliate&ircid=4272",
-    "venue": "GRAMMY Museum L.A. Live",
-    "city": "Los Angeles, CA",
-    "Eventdate": "Wed, 5/15/2024 7:30 PM",
-    "presaleDate": "4/11/2024 11:00 PM",
-    "publicDate": "4/14/2024 12:30 AM"
-  },
-  {
-    "Artist": "NEEDTOBREATHE (LIVN)",
-    "agentCodes": "(LIVN)",
-    "link": "https://concerts.livenation.com/event/1D006081BC7A3B10",
-    "venue": "Toyota Oakdale Theatre",
-    "city": "Wallingford, CT",
-    "Eventdate": "Fri, 7/26/2024 7:30 PM",
-    "presaleDate": "4/14/2024 12:30 AM",
-    "publicDate": "4/12/2024 7:30 PM"
-  },
-  {
-    "Artist": "Lexington Ballet Company presents Cinderella (TMUSA)",
+    "Artist": "Don Omar 'Back to Reggaeton' Tour (TMUSA)",
     "agentCodes": "(TMUSA)",
-    "link": "https://www.ticketmaster.com/event/1600602BD1E937B4",
-    "venue": "Lexington Opera House",
-    "city": "Lexington, KY",
-    "Eventdate": "Sat, 4/13/2024 7:30 PM",
-    "presaleDate": "4/14/2024 3:00 AM",
-    "publicDate": "1/12/2024 8:30 PM"
+    "link": "https://www.ticketmaster.com/event/2D0060889C2C2216",
+    "venue": "Greensboro Coliseum Complex",
+    "city": "Greensboro, NC",
+    "Eventdate": "Sun, 9/1/2024 8:00 PM",
+    "presaleDate": "4/15/2024 7:30 PM",
+    "publicDate": "4/17/2024 7:30 PM"
   },
   {
-    "Artist": "Southern Dance Academy (TMUSA)",
+    "Artist": "Don Omar 'Back to Reggaeton' Tour (TMUSA)",
     "agentCodes": "(TMUSA)",
-    "link": "https://www.ticketmaster.com/event/2D006064E0CF3BA0",
-    "venue": "Spartanburg Memorial Auditorium",
-    "city": "Spartanburg, SC",
-    "Eventdate": "Sat, 5/11/2024 4:00 PM",
-    "presaleDate": "",
-    "publicDate": "4/14/2024 8:30 AM"
+    "link": "https://www.ticketmaster.com/event/0D006089BF872448",
+    "venue": "Amalie Arena",
+    "city": "Tampa, FL",
+    "Eventdate": "Fri, 9/6/2024 8:00 PM",
+    "presaleDate": "4/15/2024 7:30 PM",
+    "publicDate": "4/17/2024 7:30 PM"
   },
   {
-    "Artist": "Dubois solide en liberté (TMUSA)",
+    "Artist": "Don Omar 'Back to Reggaeton' Tour (TMUSA)",
     "agentCodes": "(TMUSA)",
-    "link": "https://www.ticketmaster.com/event/31005F94D4A73A85",
-    "venue": "CABARET DU CASINO DE MONTREAL",
-    "city": "Montreal, QC",
-    "Eventdate": "Sun, 4/21/2024 3:00 PM",
-    "presaleDate": "4/14/2024 1:31 PM",
-    "publicDate": "12/22/2023 1:30 AM"
+    "link": "https://www.ticketmaster.com/event/01006085E22E83C0",
+    "venue": "Agganis Arena",
+    "city": "Boston, MA",
+    "Eventdate": "Thu, 9/12/2024 8:00 PM",
+    "presaleDate": "4/15/2024 7:30 PM",
+    "publicDate": "4/17/2024 7:30 PM"
   },
   {
-    "Artist": "Maggie Rogers: The Don't Forget Me Tour - Release Show (LIVN)",
-    "agentCodes": "(LIVN)",
-    "link": "https://concerts.livenation.com/event/02006081445882D1",
-    "venue": "Theatre of Living Arts",
-    "city": "Philadelphia, PA",
-    "Eventdate": "Sun, 4/14/2024 8:30 PM",
-    "presaleDate": "",
-    "publicDate": "4/14/2024 7:30 PM"
-  },
-  {
-    "Artist": "Moondance: the Ultimate Van Morrison Tribute Concert (TMUSA)",
+    "Artist": "Don Omar 'Back to Reggaeton' Tour (TMUSA)",
     "agentCodes": "(TMUSA)",
-    "link": "https://www.ticketmaster.com/event/01006089B57D3306",
-    "venue": "Jimmy's Jazz and Blues Club",
-    "city": "Portsmouth, NH",
-    "Eventdate": "Tue, 8/27/2024 7:30 PM",
-    "presaleDate": "4/14/2024 7:30 PM",
-    "publicDate": "4/17/2024 2:30 PM"
+    "link": "https://www.ticketmaster.com/event/02006086FEBFA2C5",
+    "venue": "Prudential Center",
+    "city": "Newark, NJ",
+    "Eventdate": "Sat, 9/14/2024 8:00 PM",
+    "presaleDate": "4/15/2024 7:30 PM",
+    "publicDate": "4/17/2024 7:30 PM"
   },
   {
-    "Artist": "The Boneshakers (TMUSA)",
+    "Artist": "Don Omar 'Back to Reggaeton' Tour (TMUSA)",
     "agentCodes": "(TMUSA)",
-    "link": "https://www.ticketmaster.com/event/01006089B70133B4",
-    "venue": "Jimmy's Jazz and Blues Club",
-    "city": "Portsmouth, NH",
-    "Eventdate": "Thu, 8/1/2024 7:30 PM",
-    "presaleDate": "4/14/2024 7:30 PM",
-    "publicDate": "4/17/2024 2:30 PM"
+    "link": "https://www.ticketmaster.com/event/30006089F4EA1AF3",
+    "venue": "UBS Arena",
+    "city": "Belmont Park, NY",
+    "Eventdate": "Sun, 9/15/2024 8:00 PM",
+    "presaleDate": "4/15/2024 7:30 PM",
+    "publicDate": "4/17/2024 7:30 PM"
   },
   {
-    "Artist": "The Jeremiah Johnson Band (TMUSA)",
+    "Artist": "Don Omar 'Back to Reggaeton' Tour (TMUSA)",
     "agentCodes": "(TMUSA)",
-    "link": "https://www.ticketmaster.com/event/01006089B6923393",
-    "venue": "Jimmy's Jazz and Blues Club",
-    "city": "Portsmouth, NH",
-    "Eventdate": "Sun, 8/4/2024 7:30 PM",
-    "presaleDate": "4/14/2024 7:30 PM",
-    "publicDate": "4/17/2024 2:30 PM"
+    "link": "https://www.ticketmaster.com/event/3A006085A9A35CBF",
+    "venue": "Payne Arena",
+    "city": "Hidalgo, TX",
+    "Eventdate": "Thu, 8/15/2024 8:00 PM",
+    "presaleDate": "4/15/2024 8:30 PM",
+    "publicDate": "4/17/2024 8:30 PM"
   },
   {
-    "Artist": "Toronzo Cannon (TMUSA)",
+    "Artist": "Don Omar 'Back to Reggaeton' Tour (TMUSA)",
     "agentCodes": "(TMUSA)",
-    "link": "https://www.ticketmaster.com/event/01006089B7793435",
-    "venue": "Jimmy's Jazz and Blues Club",
-    "city": "Portsmouth, NH",
-    "Eventdate": "Tue, 7/16/2024 7:30 PM",
-    "presaleDate": "4/14/2024 7:30 PM",
-    "publicDate": "4/17/2024 2:30 PM"
+    "link": "https://www.ticketmaster.com/event/3A006085E7AF6B48",
+    "venue": "H-E-B Center at Cedar Park",
+    "city": "Cedar Park, TX",
+    "Eventdate": "Fri, 8/16/2024 8:00 PM",
+    "presaleDate": "4/15/2024 8:30 PM",
+    "publicDate": "4/17/2024 8:30 PM"
   },
   {
-    "Artist": "Women of Country Tour (AXS)",
+    "Artist": "Don Omar 'Back to Reggaeton' Tour (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/070060859EBE3212",
+    "venue": "Fiserv Forum",
+    "city": "Milwaukee, WI",
+    "Eventdate": "Fri, 8/30/2024 8:00 PM",
+    "presaleDate": "4/15/2024 8:30 PM",
+    "publicDate": "4/17/2024 8:30 PM"
+  },
+  {
+    "Artist": "Don Omar (AXS)",
     "agentCodes": "(AXS)",
-    "link": "https://www.axs.com/events/534035/women-of-country-tour-tickets",
-    "venue": "Opry House",
-    "city": "Nashville, TN",
-    "Eventdate": "Sat, 7/13/2024 9:00 AM",
-    "presaleDate": "4/14/2024 8:30 PM",
-    "publicDate": "4/14/2024 10:30 PM"
+    "link": "https://www.axs.com/events/542680/don-omar-tickets",
+    "venue": "Bellco Theatre",
+    "city": "Denver, CO",
+    "Eventdate": "Wed, 8/28/2024 8:00 PM",
+    "presaleDate": "4/15/2024 9:30 PM",
+    "publicDate": "4/17/2024 9:30 PM"
+  },
+  {
+    "Artist": "Don Omar 'Back to Reggaeton' Tour (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/0C006089014F3846",
+    "venue": "Don Haskins Center",
+    "city": "El Paso, TX",
+    "Eventdate": "Sun, 8/18/2024 8:00 PM",
+    "presaleDate": "4/15/2024 9:30 PM",
+    "publicDate": "4/17/2024 9:30 PM"
+  },
+  {
+    "Artist": "Don Omar (AXS)",
+    "agentCodes": "(AXS)",
+    "link": "https://www.axs.com/events/541890/don-omar-tickets",
+    "venue": "Crypto.com Arena",
+    "city": "Los Angeles, CA",
+    "Eventdate": "Tue, 8/20/2024 8:00 PM",
+    "presaleDate": "4/15/2024 10:30 PM",
+    "publicDate": "4/17/2024 10:30 PM"
+  },
+  {
+    "Artist": "Don Omar (AXS)",
+    "agentCodes": "(AXS)",
+    "link": "https://www.axs.com/events/541604/don-omar-tickets",
+    "venue": "Pechanga Arena San Diego",
+    "city": "San Diego, CA",
+    "Eventdate": "Fri, 8/23/2024 8:00 PM",
+    "presaleDate": "4/15/2024 10:30 PM",
+    "publicDate": "4/17/2024 10:30 PM"
+  },
+  {
+    "Artist": "Don Omar 'Back to Reggaeton' Tour (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/1C006085C5A36203",
+    "venue": "Oakland Arena",
+    "city": "Oakland, CA",
+    "Eventdate": "Wed, 8/7/2024 8:00 PM",
+    "presaleDate": "4/15/2024 10:30 PM",
+    "publicDate": "4/17/2024 10:30 PM"
+  },
+  {
+    "Artist": "Don Omar 'Back to Reggaeton' Tour (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/0F0060859F8D453B",
+    "venue": "WAMU Theater",
+    "city": "Seattle, WA",
+    "Eventdate": "Sat, 8/10/2024 7:00 PM",
+    "presaleDate": "4/15/2024 10:30 PM",
+    "publicDate": "4/17/2024 10:30 PM"
+  },
+  {
+    "Artist": "Don Omar - BACK TO REGGAETON TOUR (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/09006085AE144D65",
+    "venue": "Toyota Arena",
+    "city": "Ontario, CA",
+    "Eventdate": "Wed, 8/21/2024 8:00 PM",
+    "presaleDate": "4/15/2024 10:30 PM",
+    "publicDate": "4/17/2024 10:30 PM"
+  },
+  {
+    "Artist": "Don Omar: Back To Reggaeton Tour (TMUSA)",
+    "agentCodes": "(TMUSA)",
+    "link": "https://www.ticketmaster.com/event/1C00608504738869",
+    "venue": "Golden 1 Center",
+    "city": "Sacramento, CA",
+    "Eventdate": "Thu, 8/8/2024 8:00 PM",
+    "presaleDate": "4/15/2024 10:30 PM",
+    "publicDate": "4/17/2024 10:30 PM"
   }
 ]

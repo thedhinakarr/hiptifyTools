@@ -20,7 +20,6 @@ app.get("/api", (req, res) => {
   res.send("Server is up");
 });
 
-
 //Need to Right Login/authentication logic here.
 app.post("/api/register", registerValidations(), errorMiddleWare, async (req, res) => {
   console.log("\n######### /api/register ROUTE HIT #########");

@@ -49,8 +49,8 @@ export default function Retrieve() {
     setLoading(false);
   };
   return (
-    <div className=" overflow-auto py-9 px-5 " >
-      <div className="mb-10 font-semibold  rounded-lg text-lg items-center p-3 "> <span className="text-blue text-6xl">Retrieve:</span></div>
+    <div className="overflow-auto py-9 px-5 " >
+      <div className="mb-10 font-semibold  rounded-lg text-lg items-center p-3 "> <span className="text-blue text-6xl">Retrieve</span></div>
       <div className="flex flex-col">
         <form onSubmit={handleSubmit} className="w-1/2 max-w-md mx-auto mt-8 border border-black p-6 rounded-lg shadow-md">
           <div className="mb-4">
@@ -69,7 +69,7 @@ export default function Retrieve() {
             <button disabled={loading} type="submit" className="bg-blue text-white px-4 py-2 rounded hover:bg-dblue">Submit</button>
           </div>
         </form>
-        <div className="mb-2 font-semibold  rounded-lg text-lg items-center p-3 "> <span className="text-blue text-6xl">Result:</span></div>
+
         {loading ? (
           <div className="text-center font-extrabold text-2xl text-gray">
             <p>Fetching...</p>
@@ -78,6 +78,7 @@ export default function Retrieve() {
           <div>
             {showReport && (
               <div>
+                <div className="mb-2 font-semibold  rounded-lg text-lg items-center p-3 "> <span className="text-blue text-6xl">Result:</span></div>
                 <span className="text-center font-extrabold text-2xl text-green">
                   {report.length} Sheets generated on {date}:<br />
                   <span className='text-purple'>&nbsp;Time&nbsp; -&gt;</span>&nbsp;&nbsp;

@@ -7,9 +7,9 @@ const Footer = () => {
         <div className="flex justify-between items-center">
           <p>&copy; {new Date().getFullYear()} Hiptify. All Rights Reserved.</p>
           <ul className="flex space-x-4">
-            <li><a href="#privacy-policy">Privacy Policy</a></li>
+            {/* <li><a href="#privacy-policy">Privacy Policy</a></li>
             <li><a href="#terms-of-service">Terms of Service</a></li>
-            <li><a href="#sitemap">Sitemap</a></li>
+            <li><a href="#sitemap">Sitemap</a></li> */}
           </ul>
         </div>
       </div>

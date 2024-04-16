@@ -1,5 +1,3 @@
-Sure, here's the beautified directory structure provided in markdown format:
-
 ---
 
 # Project Directory Structure

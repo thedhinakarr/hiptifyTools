@@ -10,10 +10,22 @@ import sosRouter from "./controllers/sos/index.js";
 
 import User from "./models/User.js";
 
+import path from "path";
+import { dirname } from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
 const app = express();
 const port = config.get("PORT");
 
 app.use(express.json());
+
+app.use(express.static('build'));
+
+// app.get('/*', function(req, res) {
+//   res.sendFile(path.join(__dirname, 'build', 'index.html'));
+// });
 
 app.get("/api", (req, res) => {
   console.log("\n######### /api (ServerCheck) ROUTE HIT #########\n");
@@ -108,8 +120,10 @@ app.get("/api/getUserByToken", isAuthenticated, async (req, res) => {
   }
 });
 
+
 //Main routes
 app.use("/api/sos/", sosRouter);
+
 
 
 app.listen(port, () => {

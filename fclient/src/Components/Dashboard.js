@@ -23,9 +23,7 @@ export default function Dashboard() {
 
         let token = localStorage.getItem("token");
         let lts = localStorage.getItem("loginTimestamp");
-        setLts(new Date(parseInt(lts, 10)).toString())
-
-        // console.log(token);
+        setLts(new Date(parseInt(lts, 10)).toString());
 
         if (token) {
           token = JSON.parse(token);
@@ -42,6 +40,7 @@ export default function Dashboard() {
         };
 
         let { data } = await axios.get(`/api/getUserByToken`, config);
+
         setuData(data.user);
       } catch (error) {
         console.error(error.response.data)
@@ -85,9 +84,9 @@ export default function Dashboard() {
           <div className="mb-2 overscroll-auto font-semibold text-lg items-center p-3">
             <span className="font-extrabold text-blue text-4xl">Watermelon Tools</span>
           </div>
-          <div className="mb-2 font-semibold rounded-lg text-lg text-blue items-center p-3">
+          {/* <div className="mb-2 font-semibold rounded-lg text-lg text-blue items-center p-3">
             Hello <span className="text-yellow">{udata.name}</span>
-          </div>
+          </div> */}
           <button onClick={sosHandle} className="font-semibold hover:bg-yellow hover:text-white mb-2 text-xl text-yellow p-3 rounded-lg items-center text-left">
             ShowsOnSale
           </button>

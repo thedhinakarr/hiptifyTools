@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="border border-blue bg-white text-black py-4">
       <div className="container mx-auto">
-        <div className="flex justify-between items-center">
+        <div className="flex items-center">
           <p>&copy; {new Date().getFullYear()} Hiptify. All Rights Reserved.</p>
           <ul className="flex space-x-4">
             {/* <li><a href="#privacy-policy">Privacy Policy</a></li>

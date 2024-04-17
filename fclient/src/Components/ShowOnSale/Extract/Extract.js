@@ -32,7 +32,7 @@ export default function Extract() {
     };
 
     // Process form submission here, e.g., send data to server
-    console.log('Artists:', artists);
+    // console.log('Artists:', artists);
     const requestBody = {
       artists
     };

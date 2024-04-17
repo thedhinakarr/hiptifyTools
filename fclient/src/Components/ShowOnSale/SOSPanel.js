@@ -28,7 +28,7 @@ export default function SOSPanel() {
         }
 
       } catch (error) {
-        console.error(error)
+        alert(error)
       }
     }
     getData();

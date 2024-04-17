@@ -90,20 +90,20 @@ const addPermissionsToSheet = async (spreadsheetId) => {
 
     console.log(`-> Granted permissions to codedhinakarr@gmail.com`);
 
-    // // Define the request body for adding permissions for the second email address
-    // const requestBody2 = {
-    //   emailAddress: config.get("email.pylan"),
-    //   role: 'writer',
-    //   type: 'user',
-    // };
+    // Define the request body for adding permissions for the second email address
+    const requestBody2 = {
+      emailAddress: config.get("email.pylan"),
+      role: 'writer',
+      type: 'user',
+    };
 
-    // // Send a request to add permissions for the second email address
-    // await drive.permissions.create({
-    //   fileId: spreadsheetId,
-    //   requestBody: requestBody2,
-    // });
+    // Send a request to add permissions for the second email address
+    await drive.permissions.create({
+      fileId: spreadsheetId,
+      requestBody: requestBody2,
+    });
 
-    // console.log(`-> Granted permissions to pylan@hiptify.co.in`);
+    console.log(`-> Granted permissions to pylan@hiptify.co.in`);
 
     console.log('-> All permissions added to the sheet.');
     console.log("======EXITING ADDPERMISSIONSTOSHEET FUNCTION======\n");

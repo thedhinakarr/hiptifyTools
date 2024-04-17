@@ -33,7 +33,6 @@ export default function Retrieve() {
     };
 
     // Process form submission here, e.g., send data to server
-    console.log({ date });
 
     const requestBody = {
       date
@@ -41,10 +40,10 @@ export default function Retrieve() {
 
     let data = await axios.post(`/api/sos/retrieve`, requestBody, config);
 
-    console.log(data.data);
+    // console.log(data.data);
     const urls = data.data.reverse().map(ele => { return [ele.sheetURL, ele.createdAt] });
     setReport(urls);
-    console.log(report);
+    // console.log(report);
     setShowReport(true);
     setLoading(false);
   };

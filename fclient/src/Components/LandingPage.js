@@ -24,7 +24,6 @@ export default function LandingPage() {
       ...userData,
       [e.target.name]: e.target.value
     })
-    console.log(userData)
   }
 
   async function OnSubmitHandler(e) {
@@ -33,13 +32,10 @@ export default function LandingPage() {
       let { data } = await axios.post("/api/login", userData);
       localStorage.setItem("token", JSON.stringify(data.token));
       localStorage.setItem("loginTimestamp", (Date.now()));
-      console.log(localStorage.getItem("loginTimestamp"));
-      console.log(localStorage.getItem("token"))
       alert("LOGIN Successfull");
       navigate("/dashBoard");
     } catch (error) {
       alert(error.response.data.error);
-      console.log(error)
     }
   }
   return (

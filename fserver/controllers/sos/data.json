@@ -1,85 +1,5 @@
 [
   {
-    "Artist": "Kevin Hart: Acting My Age (TMUSA)",
-    "agentCodes": "(TMUSA)",
-    "link": "https://www.ticketmaster.com/event/1D00608A0C0C4E0E",
-    "venue": "Mohegan Sun Arena",
-    "city": "Uncasville, CT",
-    "Eventdate": "Fri, 7/19/2024 8:00 PM",
-    "presaleDate": "4/17/2024 7:30 PM",
-    "publicDate": "4/19/2024 7:30 PM"
-  },
-  {
-    "Artist": "Kevin Hart: Acting My Age (TMUSA)",
-    "agentCodes": "(TMUSA)",
-    "link": "https://www.ticketmaster.com/event/0000608ACA88426E",
-    "venue": "MJ Nesheiwat Convention Center",
-    "city": "Poughkeepsie, NY",
-    "Eventdate": "Sat, 7/20/2024 7:45 PM",
-    "presaleDate": "4/17/2024 7:30 PM",
-    "publicDate": "4/19/2024 7:30 PM"
-  },
-  {
-    "Artist": "Kevin Hart: Acting My Age (TMUSA)",
-    "agentCodes": "(TMUSA)",
-    "link": "https://www.ticketmaster.com/event/1500608CE7C94D10",
-    "venue": "DAR Constitution Hall",
-    "city": "Washington, DC",
-    "Eventdate": "Fri, 9/13/2024 7:30 PM",
-    "presaleDate": "4/17/2024 7:30 PM",
-    "publicDate": "4/19/2024 7:30 PM"
-  },
-  {
-    "Artist": "Kevin Hart: Acting My Age (ETIX)",
-    "agentCodes": "(ETIX)",
-    "link": "https://www.etix.com/ticket/p/88710220",
-    "venue": "Altria Theater",
-    "city": "Richmond, VA",
-    "Eventdate": "Fri, 9/27/2024 7:30 PM",
-    "presaleDate": "4/17/2024 7:30 PM",
-    "publicDate": "4/19/2024 7:30 PM"
-  },
-  {
-    "Artist": "Kevin Hart: Acting My Age (ETIX)",
-    "agentCodes": "(ETIX)",
-    "link": "https://www.etix.com/ticket/p/88710220",
-    "venue": "Altria Theater",
-    "city": "Richmond, VA",
-    "Eventdate": "Fri, 9/27/2024 7:30 PM",
-    "presaleDate": "4/17/2024 7:30 PM",
-    "publicDate": "4/19/2024 7:30 PM"
-  },
-  {
-    "Artist": "Kevin Hart: Acting My Age (TMUSA)",
-    "agentCodes": "(TMUSA)",
-    "link": "https://www.ticketmaster.com/event/0100608A9EF14997",
-    "venue": "MGM Music Hall at Fenway",
-    "city": "Boston, MA",
-    "Eventdate": "Sat, 11/9/2024 7:30 PM",
-    "presaleDate": "4/17/2024 7:30 PM",
-    "publicDate": "4/19/2024 7:30 PM"
-  },
-  {
-    "Artist": "Kevin Hart: Acting My Age (OTHER)",
-    "agentCodes": "(OTHER)",
-    "link": "https://tickets.playhousesquare.org/online/default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=E2B6ADA9-9C3F-4E32-9100-1217934F51C7",
-    "venue": "KeyBank State Theatre at Playhouse Square",
-    "city": "Cleveland, OH",
-    "Eventdate": "Fri, 11/15/2024 8:00 PM",
-    "presaleDate": "4/17/2024 7:30 PM",
-    "publicDate": "4/19/2024 7:30 PM"
-  },
-  {
-    "Artist": "Kevin Hart: Acting My Age (LIVN)",
-    "agentCodes": "(LIVN)",
-    "link": "https://concerts.livenation.com/event/0200608CD6A35B4E",
-    "venue": "The Met Presented by Highmark",
-    "city": "Philadelphia, PA",
-    "Eventdate": "Wed, 12/4/2024 7:30 PM",
-    "presaleDate": "4/17/2024 7:30 PM",
-    "publicDate": "4/19/2024 7:30 PM"
-  },
-  {
     "Artist": "Shakira - Las Mujeres Ya No Lloran (TMUSA)",
     "agentCodes": "(TMUSA)",
     "link": "https://www.ticketmaster.com/event/1000608BFB9D3B7D",
@@ -160,36 +80,6 @@
     "publicDate": "4/22/2024 7:30 PM"
   },
   {
-    "Artist": "Kevin Hart: Acting My Age (EVNU)",
-    "agentCodes": "(EVNU)",
-    "link": "https://fabulousfox.evenue.net/cgi-bin/ncommerce3/SEGetEventList?groupCode=FOX03AUG24&linkID=metro-foxsl&_ga=2.212013266.797939832.1713276636-2027438345.1711375553",
-    "venue": "The Fabulous Fox",
-    "city": "St. Louis, MO",
-    "Eventdate": "Sat, 8/3/2024 7:30 PM",
-    "presaleDate": "4/17/2024 8:30 PM",
-    "publicDate": "4/19/2024 8:30 PM"
-  },
-  {
-    "Artist": "Kevin Hart: Acting My Age (OTHER)",
-    "agentCodes": "(OTHER)",
-    "link": "https://www.smartfinancialcentre.net/events/kevin-hart/calendar/",
-    "venue": "Smart Financial Centre at Sugar Land",
-    "city": "Sugar Land, TX",
-    "Eventdate": "Fri, 9/20/2024 8:00 PM",
-    "presaleDate": "4/17/2024 8:30 PM",
-    "publicDate": "4/19/2024 8:30 PM"
-  },
-  {
-    "Artist": "Kevin Hart: Acting My Age (AXS)",
-    "agentCodes": "(AXS)",
-    "link": "https://www.axs.com/events/543119/kevin-hart-acting-my-age-tickets",
-    "venue": "Texas Trust CU Theatre",
-    "city": "Grand Prairie, TX",
-    "Eventdate": "Fri, 10/18/2024 7:30 PM",
-    "presaleDate": "4/17/2024 8:30 PM",
-    "publicDate": "4/19/2024 8:30 PM"
-  },
-  {
     "Artist": "Shakira - Las Mujeres Ya No Lloran - World Tour (TMUSA)",
     "agentCodes": "(TMUSA)",
     "link": "https://www.ticketmaster.com/event/3A00608CA87B5810",
@@ -218,76 +108,6 @@
     "Eventdate": "Sat, 12/14/2024 7:30 PM",
     "presaleDate": "4/17/2024 8:30 PM",
     "publicDate": "4/22/2024 8:30 PM"
-  },
-  {
-    "Artist": "Kevin Hart: Acting My Age (AXS)",
-    "agentCodes": "(AXS)",
-    "link": "https://www.axs.com/events/543446/kevin-hart-acting-my-age-tickets",
-    "venue": "Bellco Theatre",
-    "city": "Denver, CO",
-    "Eventdate": "Sat, 10/5/2024 7:30 PM",
-    "presaleDate": "4/17/2024 9:30 PM",
-    "publicDate": "4/19/2024 9:30 PM"
-  },
-  {
-    "Artist": "Kevin Hart: Acting My Age (AXS)",
-    "agentCodes": "(AXS)",
-    "link": "https://www.axs.com/events/538976/kevin-hart-acting-my-age-tickets",
-    "venue": "Resorts World Theatre",
-    "city": "Las Vegas, NV",
-    "Eventdate": "Fri, 7/12/2024 8:00 PM",
-    "presaleDate": "4/17/2024 10:30 PM",
-    "publicDate": "4/19/2024 10:30 PM"
-  },
-  {
-    "Artist": "Kevin Hart: Acting My Age (AXS)",
-    "agentCodes": "(AXS)",
-    "link": "https://www.axs.com/events/543354/kevin-hart-acting-my-age-tickets",
-    "venue": "Resorts World Theatre",
-    "city": "Las Vegas, NV",
-    "Eventdate": "Sun, 7/14/2024 8:00 PM",
-    "presaleDate": "4/17/2024 10:30 PM",
-    "publicDate": "4/19/2024 10:30 PM"
-  },
-  {
-    "Artist": "Kevin Hart: Acting My Age (TMUSA)",
-    "agentCodes": "(TMUSA)",
-    "link": "https://www.ticketmaster.com/event/0F00608AC2782D67",
-    "venue": "WAMU Theater",
-    "city": "Seattle, WA",
-    "Eventdate": "Fri, 8/23/2024 7:30 PM",
-    "presaleDate": "4/17/2024 10:30 PM",
-    "publicDate": "4/19/2024 10:30 PM"
-  },
-  {
-    "Artist": "Kevin Hart: Acting My Age (EVNU)",
-    "agentCodes": "(EVNU)",
-    "link": "https://portland5.evenue.net/cgi-bin/ncommerce3/SEGetEventList?groupCode=HART&linkID=pcpa&shopperContext=&caller=&cgc=",
-    "venue": "Keller Auditorium",
-    "city": "Portland, OR",
-    "Eventdate": "Sat, 8/24/2024 7:00 PM",
-    "presaleDate": "4/17/2024 10:30 PM",
-    "publicDate": "4/19/2024 10:30 PM"
-  },
-  {
-    "Artist": "Kevin Hart: Acting My Age (LIVN)",
-    "agentCodes": "(LIVN)",
-    "link": "https://concerts.livenation.com/event/1900608BED903B39",
-    "venue": "Arizona Financial Theatre",
-    "city": "Phoenix, AZ",
-    "Eventdate": "Fri, 10/11/2024 7:30 PM",
-    "presaleDate": "4/17/2024 10:30 PM",
-    "publicDate": "4/19/2024 10:30 PM"
-  },
-  {
-    "Artist": "Kevin Hart: Acting My Age (TMUSA)",
-    "agentCodes": "(TMUSA)",
-    "link": "https://www.ticketmaster.com/event/1C00608BD32A5816",
-    "venue": "Paramount Theatre-Oakland",
-    "city": "Oakland, CA",
-    "Eventdate": "Fri, 10/25/2024 7:30 PM",
-    "presaleDate": "4/17/2024 10:30 PM",
-    "publicDate": "4/19/2024 10:30 PM"
   },
   {
     "Artist": "Shakira - Las Mujeres Ya No Lloran - World Tour (TMUSA)",
